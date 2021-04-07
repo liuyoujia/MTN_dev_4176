@@ -1,0 +1,146 @@
+Starting phenix.bat
+on Tue Apr  6 22:39:20 2021 by youjia
+===============================================================================
+
+Processing files:
+-------------------------------------------------------------------------------
+
+  Found phil, C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\4ek1\.phenix\project_data/polder_2.eff
+
+Processing PHIL parameters:
+-------------------------------------------------------------------------------
+
+  Adding PHIL files:
+  ------------------
+    C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\4ek1\.phenix\project_data/polder_2.eff
+
+Processing files from PHIL:
+-------------------------------------------------------------------------------
+
+  Found model, C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\4ek1\4ek1.updated_refine_001.pdb
+  Found miller_array, C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\4ek1\4ek1.updated_refine_001.mtz
+
+Final processed PHIL parameters:
+-------------------------------------------------------------------------------
+  data_manager {
+    miller_array {
+      file = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\4ek1\\4ek1.updated_refine_001.mtz"
+      labels {
+        name = "F-obs,SIGF-obs"
+      }
+      labels {
+        name = "R-free-flags"
+      }
+      labels {
+        name = "F-obs-filtered,SIGF-obs-filtered"
+      }
+      labels {
+        name = "F-model,PHIF-model"
+      }
+      labels {
+        name = "2FOFCWT,PH2FOFCWT"
+      }
+      labels {
+        name = "2FOFCWT_no_fill,PH2FOFCWT_no_fill"
+      }
+      labels {
+        name = "FOFCWT,PHFOFCWT"
+      }
+    }
+    default_miller_array = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\4ek1\\4ek1.updated_refine_001.mtz"
+    model {
+      file = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\4ek1\\4ek1.updated_refine_001.pdb"
+    }
+    default_model = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\4ek1\\4ek1.updated_refine_001.pdb"
+    phil_files = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\4ek1\\.phenix\\project_data/polder_2.eff"
+    default_phil = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\4ek1\\.phenix\\project_data/polder_2.eff"
+  }
+  job_title = """chain A 505"""
+  model_file_name = C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\4ek1\4ek1.updated_refine_001.pdb
+  solvent_exclusion_mask_selection = """chain A and resname MTN and resseq 505"""
+  reflection_file_name = C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\4ek1\4ek1.updated_refine_001.mtz
+  data_labels = F-obs,SIGF-obs
+  r_free_flags_labels = R-free-flags
+
+
+Starting job
+===============================================================================
+Validating inputs:
+
+Using model file: C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\4ek1\4ek1.updated_refine_001.pdb
+Using reflection file(s): ['C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\4ek1\\4ek1.updated_refine_001.mtz']
+*******************************************************************************
+Selecting atoms...
+
+Selection string: chain A and resname MTN and resseq 505
+Number of atoms selected: 12
+HETATM12942  C1  MTN A 505      10.556   6.287  21.348  1.00 49.85           C
+HETATM12943  C2  MTN A 505      11.024   5.206  22.305  1.00 35.21           C
+HETATM12944  C3  MTN A 505      12.200   5.504  22.900  1.00 36.20           C
+HETATM12945  C4  MTN A 505      12.907   4.638  23.875  1.00 30.94           C
+HETATM12946  C5  MTN A 505      12.747   6.832  22.442  1.00 49.42           C
+HETATM12947  C6  MTN A 505      14.016   6.695  21.579  1.00 33.62           C
+HETATM12948  C7  MTN A 505      12.940   7.800  23.620  1.00 46.71           C
+HETATM12949  C8  MTN A 505       9.188   6.929  21.639  1.00 33.90           C
+HETATM12950  C9  MTN A 505      10.597   5.795  19.900  1.00 43.08           C
+HETATM12951  N1  MTN A 505      11.661   7.263  21.511  1.00 45.48           N
+HETATM12952  O1  MTN A 505      11.645   8.403  20.977  1.00 47.14           O
+HETATM12953  S1  MTN A 505      12.942   2.896  23.281  1.00 40.45           S
+
+*******************************************************************************
+Input data...
+  Reflection data: ['F-obs', 'SIGF-obs']
+  Free-R flags: ['R-free-flags']
+
+Working crystal symmetry after inspecting all inputs:
+Unit cell: (56.02, 101.53, 72.98, 90, 107.39, 90)
+Space group: P 1 21 1 (No. 4)
+*******************************************************************************
+R factors for unmodified input model and data:
+R_work = 0.1634 R_free = 0.2272
+*******************************************************************************
+R factor for polder map
+R_work = 0.1651 R_free = 0.2288
+*******************************************************************************
+R factor for OMIT map (ligand is excluded for mask calculation):
+R_work = 0.1643 R_free = 0.2282
+*******************************************************************************
+File 4ek1_polder_map_coeffs.mtz was written.
+Map 1: calculated Fobs with ligand
+Map 2: calculated Fobs without ligand
+Map 3: real Fobs data
+CC(1,2): 0.1370
+CC(1,3): 0.8567
+CC(2,3): 0.2765
+Peak CC:
+CC(1,2): 0.2457
+CC(1,3): 0.7669
+CC(2,3): 0.3101
+q    D(1,2) D(1,3) D(2,3)
+0.10 0.8297 0.7313 0.8696
+0.20 0.7061 0.6373 0.7719
+0.30 0.7351 0.5596 0.6907
+0.40 0.8018 0.5086 0.7340
+0.50 0.8224 0.4193 0.7439
+0.60 0.8906 0.3730 0.8407
+0.70 0.9574 0.2963 0.8776
+0.80 0.9679 0.2633 0.8961
+0.90 0.9654 0.2819 0.8696
+0.91 0.9761 0.2864 0.8709
+0.92 0.9724 0.2959 0.8585
+0.93 0.9633 0.3015 0.8677
+0.94 0.9718 0.3056 0.8785
+0.95 1.0078 0.2923 0.9372
+0.96 1.0098 0.3491 0.9100
+0.97 1.0035 0.3208 0.9294
+0.98 1.0136 0.2687 0.9647
+0.99 0.9671 0.2659 0.9912
+*******************************************************************************
+The polder map is likely to show the omitted atoms.
+*******************************************************************************
+Finished
+
+===============================================================================
+Job complete
+usr+sys time: 155.95 seconds
+wall clock time: 2 minutes 37.77 seconds (157.77 seconds total)

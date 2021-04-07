@@ -1,0 +1,151 @@
+Starting phenix.polder
+on Tue Apr  6 05:35:25 2021 by liuyoujia
+===============================================================================
+
+Processing files:
+-------------------------------------------------------------------------------
+
+  Found model, 4wwl.updated_refine_001.pdb
+  Found miller_array, 4wwl.updated_refine_001.mtz
+
+Processing PHIL parameters:
+-------------------------------------------------------------------------------
+
+  Adding command-line PHIL:
+  -------------------------
+    solvent_exclusion_mask_selection=chain A and resname MTN and resseq 601
+    r_free_flags_label=R-free-flags
+
+Final processed PHIL parameters:
+-------------------------------------------------------------------------------
+  data_manager {
+    miller_array {
+      file = "4wwl.updated_refine_001.mtz"
+      labels {
+        name = "F-obs,SIGF-obs"
+      }
+      labels {
+        name = "R-free-flags"
+      }
+      labels {
+        name = "F-obs-filtered,SIGF-obs-filtered"
+      }
+      labels {
+        name = "F-model,PHIF-model"
+      }
+      labels {
+        name = "2FOFCWT,PH2FOFCWT"
+      }
+      labels {
+        name = "2FOFCWT_no_fill,PH2FOFCWT_no_fill"
+      }
+      labels {
+        name = "FOFCWT,PHFOFCWT"
+      }
+    }
+    default_miller_array = "4wwl.updated_refine_001.mtz"
+    model {
+      file = "4wwl.updated_refine_001.pdb"
+    }
+    default_model = "4wwl.updated_refine_001.pdb"
+  }
+  solvent_exclusion_mask_selection = chain A and resname MTN and resseq 601
+  r_free_flags_labels = R-free-flags
+
+
+Starting job
+===============================================================================
+Validating inputs:
+
+Using model file: 4wwl.updated_refine_001.pdb
+Using reflection file(s): ['4wwl.updated_refine_001.mtz']
+*******************************************************************************
+Selecting atoms...
+
+Selection string: chain A and resname MTN and resseq 601
+Number of atoms selected: 27
+HETATM 8142  C1  MTN A 601      21.436  19.896 107.974  1.00 56.10           C
+HETATM 8143  C2  MTN A 601      22.251  21.117 108.248  1.00 53.11           C
+HETATM 8144  C3  MTN A 601      22.111  22.037 107.297  1.00 57.21           C
+HETATM 8145  C4  MTN A 601      22.770  23.341 107.284  1.00 52.10           C
+HETATM 8146  C5  MTN A 601      21.173  21.622 106.202  1.00 63.78           C
+HETATM 8147  C6  MTN A 601      19.990  22.612 106.047  1.00 44.70           C
+HETATM 8148  C7  MTN A 601      21.897  21.331 104.891  1.00 50.95           C
+HETATM 8149  C8  MTN A 601      22.315  18.668 107.706  1.00 45.76           C
+HETATM 8150  C9  MTN A 601      20.462  19.669 109.112  1.00 55.13           C
+HETATM 8151  N1  MTN A 601      20.770  20.296 106.701  1.00 51.01           N
+HETATM 8152  O1  MTN A 601      19.911  19.620 106.074  1.00 50.42           O
+HETATM 8153  S1  MTN A 601      24.607  23.179 107.361  1.00 56.57           S
+HETATM 8154  H2  MTN A 601      22.787  21.205 109.003  1.00 63.79           H
+HETATM 8155  H41 MTN A 601      22.559  23.828 106.472  1.00 62.58           H
+HETATM 8156  H42 MTN A 601      22.496  23.876 108.045  1.00 62.58           H
+HETATM 8157  H61 MTN A 601      20.213  23.323 105.424  1.00 53.71           H
+HETATM 8158  H62 MTN A 601      19.765  23.020 106.898  1.00 53.71           H
+HETATM 8159  H63 MTN A 601      19.200  22.159 105.713  1.00 53.71           H
+HETATM 8160  H71 MTN A 601      22.727  20.867 105.082  1.00 61.20           H
+HETATM 8161  H72 MTN A 601      22.084  22.169 104.439  1.00 61.20           H
+HETATM 8162  H73 MTN A 601      21.331  20.775 104.332  1.00 61.20           H
+HETATM 8163  H81 MTN A 601      22.913  18.828 106.960  1.00 54.97           H
+HETATM 8164  H82 MTN A 601      22.854  18.454 108.483  1.00 54.97           H
+HETATM 8165  H83 MTN A 601      21.770  17.894 107.495  1.00 54.97           H
+HETATM 8166  H91 MTN A 601      20.952  19.397 109.903  1.00 66.22           H
+HETATM 8167  H92 MTN A 601      19.833  18.975 108.862  1.00 66.22           H
+HETATM 8168  H93 MTN A 601      19.983  20.494 109.292  1.00 66.22           H
+
+*******************************************************************************
+Input data...
+  Reflection data: ['F-obs', 'SIGF-obs']
+  Free-R flags: ['R-free-flags']
+
+Working crystal symmetry after inspecting all inputs:
+Unit cell: (68.89, 68.89, 307.41, 90, 90, 90)
+Space group: P 41 2 2 (No. 91)
+*******************************************************************************
+R factors for unmodified input model and data:
+R_work = 0.1476 R_free = 0.1894
+*******************************************************************************
+R factor for polder map
+R_work = 0.1501 R_free = 0.1916
+*******************************************************************************
+R factor for OMIT map (ligand is excluded for mask calculation):
+R_work = 0.1485 R_free = 0.1912
+*******************************************************************************
+File 4wwl_polder_map_coeffs.mtz was written.
+Map 1: calculated Fobs with ligand
+Map 2: calculated Fobs without ligand
+Map 3: real Fobs data
+CC(1,2): 0.3940
+CC(1,3): 0.8279
+CC(2,3): 0.4664
+Peak CC:
+CC(1,2): 0.5785
+CC(1,3): 0.7771
+CC(2,3): 0.5837
+q    D(1,2) D(1,3) D(2,3)
+0.10 0.7770 0.6497 0.8274
+0.20 0.5847 0.5594 0.6518
+0.30 0.4853 0.5046 0.5785
+0.40 0.4306 0.4773 0.4922
+0.50 0.4601 0.4544 0.4964
+0.60 0.5300 0.3560 0.5022
+0.70 0.5796 0.3091 0.5432
+0.80 0.7145 0.2953 0.6668
+0.90 0.8380 0.3819 0.8168
+0.91 0.8538 0.4080 0.8189
+0.92 0.9144 0.3794 0.8593
+0.93 0.9349 0.3996 0.8579
+0.94 0.9817 0.3978 0.8886
+0.95 1.0149 0.4120 0.9245
+0.96 1.0379 0.4724 0.9385
+0.97 1.0170 0.4593 0.9514
+0.98 1.0228 0.4627 1.0228
+0.99 0.9884 0.4098 1.0125
+*******************************************************************************
+The polder map is likely to show the omitted atoms.
+*******************************************************************************
+Finished
+
+===============================================================================
+Job complete
+usr+sys time: 39.09 seconds
+wall clock time: 39.10 seconds

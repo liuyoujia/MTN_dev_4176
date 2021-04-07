@@ -1,0 +1,33 @@
+LIBTBX_BASE_DIR = "C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\3ifx"
+job_summary {
+  job_id = 1
+  app_id = "Polder"
+  program_name = "phenix.polder"
+  program_args = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\3ifx\\.phenix\\project_data/polder_1.eff"
+  config_file = "$(LIBTBX_BASE_DIR)\\.phenix\\project_data/polder_1.eff"
+  title = "chain B"
+  time_started = 1617711450
+  time_finished = 1617711467
+  result_directory = "$(LIBTBX_BASE_DIR)\\Polder_1"
+  status = started failed aborted *complete deleted
+  user_flagged = False
+  r_free = None
+  process_type = 0
+  applet = False
+}
+job_summary {
+  job_id = 2
+  app_id = "Polder"
+  program_name = "phenix.polder"
+  program_args = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\3ifx\\.phenix\\project_data/polder_2.eff"
+  config_file = "$(LIBTBX_BASE_DIR)\\.phenix\\project_data/polder_2.eff"
+  title = "chain D"
+  time_started = 1617711467
+  time_finished = None
+  result_directory = "$(LIBTBX_BASE_DIR)\\Polder_2"
+  status = *started failed aborted complete deleted
+  user_flagged = False
+  r_free = None
+  process_type = 0
+  applet = False
+}

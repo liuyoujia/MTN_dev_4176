@@ -1,0 +1,75 @@
+Starting phenix.bat
+on Tue Apr  6 19:21:19 2021 by youjia
+===============================================================================
+
+Processing files:
+-------------------------------------------------------------------------------
+
+  Found phil, C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\2ou8\.phenix\project_data/polder_2.eff
+
+Processing PHIL parameters:
+-------------------------------------------------------------------------------
+
+  Adding PHIL files:
+  ------------------
+    C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\2ou8\.phenix\project_data/polder_2.eff
+
+Processing files from PHIL:
+-------------------------------------------------------------------------------
+
+  Found model, C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\2ou8\2ou8.updated_refine_001.pdb
+  Found miller_array, C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\2ou8\2ou8.updated_refine_001.mtz
+
+Final processed PHIL parameters:
+-------------------------------------------------------------------------------
+  data_manager {
+    miller_array {
+      file = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\2ou8\\2ou8.updated_refine_001.mtz"
+      labels {
+        name = "I-obs,SIGI-obs"
+      }
+      labels {
+        name = "R-free-flags"
+      }
+      labels {
+        name = "F-obs-filtered,SIGF-obs-filtered"
+      }
+      labels {
+        name = "F-model,PHIF-model"
+      }
+      labels {
+        name = "2FOFCWT,PH2FOFCWT"
+      }
+      labels {
+        name = "2FOFCWT_no_fill,PH2FOFCWT_no_fill"
+      }
+      labels {
+        name = "FOFCWT,PHFOFCWT"
+      }
+    }
+    default_miller_array = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\2ou8\\2ou8.updated_refine_001.mtz"
+    model {
+      file = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\2ou8\\2ou8.updated_refine_001.pdb"
+    }
+    default_model = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\2ou8\\2ou8.updated_refine_001.pdb"
+    phil_files = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\2ou8\\.phenix\\project_data/polder_2.eff"
+    default_phil = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\2ou8\\.phenix\\project_data/polder_2.eff"
+  }
+  job_title = """altloc_A"""
+  model_file_name = C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\2ou8\2ou8.updated_refine_001.pdb
+  solvent_exclusion_mask_selection = """chain A and resname MTN and resseq 182 and altloc A"""
+  reflection_file_name = C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\2ou8\2ou8.updated_refine_001.mtz
+  data_labels = I-obs,SIGI-obs
+  r_free_flags_labels = R-free-flags
+
+
+Starting job
+===============================================================================
+Validating inputs:
+
+Using model file: C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\2ou8\2ou8.updated_refine_001.pdb
+Using reflection file(s): ['C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\2ou8\\2ou8.updated_refine_001.mtz']
+*******************************************************************************
+Selecting atoms...
+
+Selection string: chain A and resname MTN and resseq 182 and altloc A

@@ -1,0 +1,151 @@
+Starting phenix.polder
+on Tue Apr  6 05:47:43 2021 by liuyoujia
+===============================================================================
+
+Processing files:
+-------------------------------------------------------------------------------
+
+  Found model, 5bmg.updated_refine_001.pdb
+  Found miller_array, 5bmg.updated_refine_001.mtz
+
+Processing PHIL parameters:
+-------------------------------------------------------------------------------
+
+  Adding command-line PHIL:
+  -------------------------
+    solvent_exclusion_mask_selection=chain G and resname MTN and resseq 101
+    r_free_flags_label=R-free-flags
+
+Final processed PHIL parameters:
+-------------------------------------------------------------------------------
+  data_manager {
+    miller_array {
+      file = "5bmg.updated_refine_001.mtz"
+      labels {
+        name = "I-obs,SIGI-obs"
+      }
+      labels {
+        name = "R-free-flags"
+      }
+      labels {
+        name = "F-obs-filtered,SIGF-obs-filtered"
+      }
+      labels {
+        name = "F-model,PHIF-model"
+      }
+      labels {
+        name = "2FOFCWT,PH2FOFCWT"
+      }
+      labels {
+        name = "2FOFCWT_no_fill,PH2FOFCWT_no_fill"
+      }
+      labels {
+        name = "FOFCWT,PHFOFCWT"
+      }
+    }
+    default_miller_array = "5bmg.updated_refine_001.mtz"
+    model {
+      file = "5bmg.updated_refine_001.pdb"
+    }
+    default_model = "5bmg.updated_refine_001.pdb"
+  }
+  solvent_exclusion_mask_selection = chain G and resname MTN and resseq 101
+  r_free_flags_labels = R-free-flags
+
+
+Starting job
+===============================================================================
+Validating inputs:
+
+Using model file: 5bmg.updated_refine_001.pdb
+Using reflection file(s): ['5bmg.updated_refine_001.mtz']
+*******************************************************************************
+Selecting atoms...
+
+Selection string: chain G and resname MTN and resseq 101
+Number of atoms selected: 27
+HETATM 7028  C1  MTN G 101      63.324  11.237  29.489  1.00 82.73           C
+HETATM 7029  C2  MTN G 101      63.888  12.623  29.647  1.00 80.31           C
+HETATM 7030  C3  MTN G 101      64.344  13.150  28.496  1.00 82.15           C
+HETATM 7031  C4  MTN G 101      64.911  14.516  28.390  1.00 86.42           C
+HETATM 7032  C5  MTN G 101      64.181  12.206  27.334  1.00 72.00           C
+HETATM 7033  C6  MTN G 101      65.492  11.707  26.689  1.00 61.91           C
+HETATM 7034  C7  MTN G 101      63.248  12.778  26.300  1.00 66.14           C
+HETATM 7035  C8  MTN G 101      61.845  11.072  29.887  1.00 77.17           C
+HETATM 7036  C9  MTN G 101      64.135  10.199  30.243  1.00 66.82           C
+HETATM 7037  N1  MTN G 101      63.536  11.062  28.034  1.00 86.42           N
+HETATM 7038  O1  MTN G 101      63.191  10.010  27.437  1.00 85.83           O
+HETATM 7039  S1  MTN G 101      66.595  14.786  27.657  1.00115.88           S
+HETATM 7040  H2  MTN G 101      63.910  13.056  30.470  1.00 96.38           H
+HETATM 7041  H41 MTN G 101      64.321  15.063  27.848  1.00103.71           H
+HETATM 7042  H42 MTN G 101      64.968  14.905  29.277  1.00103.71           H
+HETATM 7043  H61 MTN G 101      65.335  10.914  26.153  1.00 74.29           H
+HETATM 7044  H62 MTN G 101      66.149  11.485  27.366  1.00 74.29           H
+HETATM 7045  H63 MTN G 101      65.875  12.386  26.112  1.00 74.29           H
+HETATM 7046  H71 MTN G 101      63.196  12.169  25.547  1.00 79.36           H
+HETATM 7047  H72 MTN G 101      62.368  12.890  26.693  1.00 79.36           H
+HETATM 7048  H73 MTN G 101      63.588  13.638  26.006  1.00 79.36           H
+HETATM 7049  H81 MTN G 101      61.594  11.724  30.560  1.00 92.60           H
+HETATM 7050  H82 MTN G 101      61.683  10.187  30.250  1.00 92.60           H
+HETATM 7051  H83 MTN G 101      61.266  11.193  29.119  1.00 92.60           H
+HETATM 7052  H91 MTN G 101      63.742   9.323  30.104  1.00 80.18           H
+HETATM 7053  H92 MTN G 101      64.129  10.414  31.189  1.00 80.18           H
+HETATM 7054  H93 MTN G 101      65.047  10.204  29.913  1.00 80.18           H
+
+*******************************************************************************
+Input data...
+  Reflection data: ['I-obs', 'SIGI-obs']
+  Free-R flags: ['R-free-flags']
+
+Working crystal symmetry after inspecting all inputs:
+Unit cell: (52.323, 79.498, 52.406, 90, 90.14, 90)
+Space group: P 1 21 1 (No. 4)
+*******************************************************************************
+R factors for unmodified input model and data:
+R_work = 0.2529 R_free = 0.3244
+*******************************************************************************
+R factor for polder map
+R_work = 0.2563 R_free = 0.3297
+*******************************************************************************
+R factor for OMIT map (ligand is excluded for mask calculation):
+R_work = 0.2552 R_free = 0.3271
+*******************************************************************************
+File 5bmg_polder_map_coeffs.mtz was written.
+Map 1: calculated Fobs with ligand
+Map 2: calculated Fobs without ligand
+Map 3: real Fobs data
+CC(1,2): 0.5952
+CC(1,3): 0.6032
+CC(2,3): 0.3804
+Peak CC:
+CC(1,2): 0.6772
+CC(1,3): 0.5347
+CC(2,3): 0.3954
+q    D(1,2) D(1,3) D(2,3)
+0.10 0.6861 0.6835 0.9328
+0.20 0.5522 0.7083 0.8615
+0.30 0.5121 0.7180 0.8050
+0.40 0.4953 0.7111 0.7728
+0.50 0.4986 0.6522 0.7012
+0.60 0.5040 0.6244 0.6427
+0.70 0.5242 0.5837 0.6630
+0.80 0.5782 0.5478 0.6837
+0.90 0.6681 0.4445 0.7375
+0.91 0.6777 0.4264 0.7427
+0.92 0.7039 0.4242 0.7573
+0.93 0.7389 0.4263 0.7602
+0.94 0.7340 0.4141 0.7545
+0.95 0.7741 0.4138 0.7790
+0.96 0.8191 0.4216 0.7709
+0.97 0.8663 0.5007 0.8106
+0.98 0.9439 0.4956 0.8496
+0.99 0.9811 0.5139 0.9344
+*******************************************************************************
+The polder map is very likely to show bulk-solvent or noise.
+*******************************************************************************
+Finished
+
+===============================================================================
+Job complete
+usr+sys time: 14.45 seconds
+wall clock time: 14.45 seconds

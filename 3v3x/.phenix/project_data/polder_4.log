@@ -1,0 +1,161 @@
+Starting phenix.bat
+on Tue Apr  6 22:51:48 2021 by youjia
+===============================================================================
+
+Processing files:
+-------------------------------------------------------------------------------
+
+  Found phil, C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\3v3x\.phenix\project_data/polder_4.eff
+
+Processing PHIL parameters:
+-------------------------------------------------------------------------------
+
+  Adding PHIL files:
+  ------------------
+    C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\3v3x\.phenix\project_data/polder_4.eff
+
+Processing files from PHIL:
+-------------------------------------------------------------------------------
+
+  Found model, C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\3v3x\3v3x.updated_refine_001.pdb
+  Found miller_array, C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\3v3x\3v3x.updated_refine_001.mtz
+
+Final processed PHIL parameters:
+-------------------------------------------------------------------------------
+  data_manager {
+    miller_array {
+      file = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\3v3x\\3v3x.updated_refine_001.mtz"
+      labels {
+        name = "F-obs,SIGF-obs"
+      }
+      labels {
+        name = "R-free-flags"
+      }
+      labels {
+        name = "F-obs-filtered,SIGF-obs-filtered"
+      }
+      labels {
+        name = "F-model,PHIF-model"
+      }
+      labels {
+        name = "2FOFCWT,PH2FOFCWT"
+      }
+      labels {
+        name = "2FOFCWT_no_fill,PH2FOFCWT_no_fill"
+      }
+      labels {
+        name = "FOFCWT,PHFOFCWT"
+      }
+    }
+    default_miller_array = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\3v3x\\3v3x.updated_refine_001.mtz"
+    model {
+      file = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\3v3x\\3v3x.updated_refine_001.pdb"
+    }
+    default_model = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\3v3x\\3v3x.updated_refine_001.pdb"
+    phil_files = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\3v3x\\.phenix\\project_data/polder_4.eff"
+    default_phil = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\3v3x\\.phenix\\project_data/polder_4.eff"
+  }
+  job_title = """chain B 81 altloc B"""
+  model_file_name = C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\3v3x\3v3x.updated_refine_001.pdb
+  solvent_exclusion_mask_selection = """chain B and resname MTN and resseq 81 and altloc B"""
+  reflection_file_name = C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\3v3x\3v3x.updated_refine_001.mtz
+  data_labels = F-obs,SIGF-obs
+  r_free_flags_labels = R-free-flags
+
+
+Starting job
+===============================================================================
+Validating inputs:
+
+Using model file: C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\3v3x\3v3x.updated_refine_001.pdb
+Using reflection file(s): ['C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\3v3x\\3v3x.updated_refine_001.mtz']
+*******************************************************************************
+Selecting atoms...
+
+Selection string: chain B and resname MTN and resseq 81 and altloc B
+Number of atoms selected: 27
+HETATM 3484  C1 BMTN B  81      14.414  28.631  17.418  0.41 53.10           C
+HETATM 3485  C2 BMTN B  81      15.820  29.134  17.317  0.41 56.75           C
+HETATM 3486  C3 BMTN B  81      16.387  28.851  16.145  0.41 50.49           C
+HETATM 3487  C4 BMTN B  81      17.762  29.216  15.771  0.41 39.78           C
+HETATM 3488  C5 BMTN B  81      15.449  28.087  15.236  0.41 49.14           C
+HETATM 3489  C6 BMTN B  81      15.867  26.623  15.041  0.41 45.61           C
+HETATM 3490  C7 BMTN B  81      15.191  28.802  13.929  0.41 51.50           C
+HETATM 3491  C8 BMTN B  81      13.370  29.712  17.718  0.41 56.98           C
+HETATM 3492  C9 BMTN B  81      14.349  27.477  18.404  0.41 47.26           C
+HETATM 3493  N1 BMTN B  81      14.247  28.032  16.079  0.41 52.02           N
+HETATM 3494  O1 BMTN B  81      13.219  27.384  15.740  0.41 53.97           O
+HETATM 3495  S1 BMTN B  81      18.731  29.874  17.206  0.41 48.07           S
+HETATM 3496  H2 BMTN B  81      16.235  29.593  18.011  0.41 68.04           H
+HETATM 3497  H41BMTN B  81      17.763  29.904  15.088  0.41 47.68           H
+HETATM 3498  H42BMTN B  81      18.244  28.444  15.434  0.41 47.68           H
+HETATM 3499  H61BMTN B  81      16.833  26.533  15.056  0.41 54.67           H
+HETATM 3500  H62BMTN B  81      15.504  26.062  15.744  0.41 54.67           H
+HETATM 3501  H63BMTN B  81      15.548  26.282  14.191  0.41 54.67           H
+HETATM 3502  H71BMTN B  81      14.929  28.153  13.257  0.41 61.74           H
+HETATM 3503  H72BMTN B  81      16.001  29.256  13.650  0.41 61.74           H
+HETATM 3504  H73BMTN B  81      14.479  29.449  14.056  0.41 61.74           H
+HETATM 3505  H81BMTN B  81      13.410  29.981  18.650  0.41 68.31           H
+HETATM 3506  H82BMTN B  81      12.475  29.387  17.536  0.41 68.31           H
+HETATM 3507  H83BMTN B  81      13.521  30.499  17.172  0.41 68.31           H
+HETATM 3508  H91BMTN B  81      14.377  27.826  19.308  0.41 56.65           H
+HETATM 3509  H92BMTN B  81      13.523  26.987  18.269  0.41 56.65           H
+HETATM 3510  H93BMTN B  81      15.105  26.888  18.257  0.41 56.65           H
+
+*******************************************************************************
+Input data...
+  Reflection data: ['F-obs', 'SIGF-obs']
+  Free-R flags: ['R-free-flags']
+
+Working crystal symmetry after inspecting all inputs:
+Unit cell: (105.248, 35.747, 86.989, 90, 126.37, 90)
+Space group: C 1 2 1 (No. 5)
+*******************************************************************************
+R factors for unmodified input model and data:
+R_work = 0.2090 R_free = 0.2688
+*******************************************************************************
+R factor for polder map
+R_work = 0.2147 R_free = 0.2713
+*******************************************************************************
+R factor for OMIT map (ligand is excluded for mask calculation):
+R_work = 0.2107 R_free = 0.2704
+*******************************************************************************
+File 3v3x_polder_map_coeffs.mtz was written.
+Map 1: calculated Fobs with ligand
+Map 2: calculated Fobs without ligand
+Map 3: real Fobs data
+CC(1,2): 0.2447
+CC(1,3): 0.6790
+CC(2,3): 0.2618
+Peak CC:
+CC(1,2): 0.2749
+CC(1,3): 0.6387
+CC(2,3): 0.2596
+q    D(1,2) D(1,3) D(2,3)
+0.10 0.8198 0.7732 0.9130
+0.20 0.8096 0.6778 0.8847
+0.30 0.8005 0.6282 0.8418
+0.40 0.7983 0.5823 0.8425
+0.50 0.8172 0.5612 0.8340
+0.60 0.8577 0.5368 0.8297
+0.70 0.8598 0.4944 0.8232
+0.80 0.9206 0.4367 0.8839
+0.90 1.0077 0.4394 0.9937
+0.91 1.0101 0.4453 1.0050
+0.92 1.0215 0.4595 1.0063
+0.93 1.0261 0.4680 1.0218
+0.94 1.0258 0.5030 1.0282
+0.95 1.0326 0.4972 1.0238
+0.96 1.0335 0.4876 1.0190
+0.97 1.0229 0.4850 1.0277
+0.98 1.0196 0.5490 1.0124
+0.99 1.0022 0.6211 1.0022
+*******************************************************************************
+The polder map is very likely to show bulk-solvent or noise.
+*******************************************************************************
+Finished
+
+===============================================================================
+Job complete
+usr+sys time: 52.48 seconds
+wall clock time: 53.19 seconds

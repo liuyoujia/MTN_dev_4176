@@ -1,0 +1,5 @@
+refinement.pdb_interpretation.apply_cif_link {
+  data_link = TRANS
+  residue_selection_1 = chain C and resname PRO and resseq 13
+  residue_selection_2 = chain C and resname CYS and resseq 1
+}

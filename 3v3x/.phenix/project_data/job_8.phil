@@ -1,0 +1,32 @@
+LIBTBX_BASE_DIR = "C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\3v3x"
+job {
+  job_id = 8
+  app_id = Polder
+  program_name = None
+  title = """chain D 81 altloc A"""
+  directory = "$(LIBTBX_BASE_DIR)\\Polder_8"
+  process_type = None
+  hostname = None
+  queue_id = None
+  citation = None
+  input_file {
+    file_name = "$(LIBTBX_BASE_DIR)\\3v3x.updated_refine_001.pdb"
+    file_type = Model file
+    param_name = model_file_name
+  }
+  input_file {
+    file_name = "$(LIBTBX_BASE_DIR)\\3v3x.updated_refine_001.mtz"
+    file_type = Data file
+    param_name = reflection_file_name
+  }
+  output_file {
+    file_name = None
+    file_type = None
+  }
+  statistic {
+    stat_name = None
+    stat_value = None
+  }
+  user_comments = None
+  deleted = False
+}

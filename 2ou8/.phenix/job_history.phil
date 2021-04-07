@@ -1,0 +1,65 @@
+LIBTBX_BASE_DIR = "C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\2ou8"
+job_summary {
+  job_id = 1
+  app_id = "Polder"
+  program_name = "phenix.polder"
+  program_args = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\2ou8\\.phenix\\project_data/polder_1.eff"
+  config_file = "$(LIBTBX_BASE_DIR)\\.phenix\\project_data/polder_1.eff"
+  title = "altloc_A"
+  time_started = 1617708034
+  time_finished = 1617708038
+  result_directory = "$(LIBTBX_BASE_DIR)\\Polder_1"
+  status = started failed aborted complete *deleted
+  user_flagged = False
+  r_free = None
+  process_type = 0
+  applet = False
+}
+job_summary {
+  job_id = 2
+  app_id = "Polder"
+  program_name = "phenix.polder"
+  program_args = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\2ou8\\.phenix\\project_data/polder_2.eff"
+  config_file = "$(LIBTBX_BASE_DIR)\\.phenix\\project_data/polder_2.eff"
+  title = "altloc_A"
+  time_started = 1617708078
+  time_finished = 1617708082
+  result_directory = "$(LIBTBX_BASE_DIR)\\Polder_2"
+  status = started failed aborted complete *deleted
+  user_flagged = False
+  r_free = None
+  process_type = 0
+  applet = False
+}
+job_summary {
+  job_id = 3
+  app_id = "Polder"
+  program_name = "phenix.polder"
+  program_args = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\2ou8\\.phenix\\project_data/polder_3.eff"
+  config_file = "$(LIBTBX_BASE_DIR)\\.phenix\\project_data/polder_3.eff"
+  title = "altloc_A"
+  time_started = 1617708166
+  time_finished = 1617708197
+  result_directory = "$(LIBTBX_BASE_DIR)\\Polder_3"
+  status = started failed aborted *complete deleted
+  user_flagged = False
+  r_free = None
+  process_type = 0
+  applet = False
+}
+job_summary {
+  job_id = 4
+  app_id = "Polder"
+  program_name = "phenix.polder"
+  program_args = "C:\\Users\\youjia\\Desktop\\MTN_dev_4176\\MTN_dev_4176\\2ou8\\.phenix\\project_data/polder_4.eff"
+  config_file = "$(LIBTBX_BASE_DIR)\\.phenix\\project_data/polder_4.eff"
+  title = "altloc_B"
+  time_started = 1617708206
+  time_finished = 1617708237
+  result_directory = "$(LIBTBX_BASE_DIR)\\Polder_4"
+  status = started failed aborted *complete deleted
+  user_flagged = False
+  r_free = None
+  process_type = 0
+  applet = False
+}

@@ -1,0 +1,151 @@
+Starting phenix.polder
+on Tue Apr  6 06:07:24 2021 by liuyoujia
+===============================================================================
+
+Processing files:
+-------------------------------------------------------------------------------
+
+  Found model, 6pgy.updated_refine_001.pdb
+  Found miller_array, 6pgy.updated_refine_001.mtz
+
+Processing PHIL parameters:
+-------------------------------------------------------------------------------
+
+  Adding command-line PHIL:
+  -------------------------
+    solvent_exclusion_mask_selection=chain A and resname MTN and resseq 203
+    r_free_flags_label=R-free-flags
+
+Final processed PHIL parameters:
+-------------------------------------------------------------------------------
+  data_manager {
+    miller_array {
+      file = "6pgy.updated_refine_001.mtz"
+      labels {
+        name = "I-obs,SIGI-obs"
+      }
+      labels {
+        name = "R-free-flags"
+      }
+      labels {
+        name = "F-obs-filtered,SIGF-obs-filtered"
+      }
+      labels {
+        name = "F-model,PHIF-model"
+      }
+      labels {
+        name = "2FOFCWT,PH2FOFCWT"
+      }
+      labels {
+        name = "2FOFCWT_no_fill,PH2FOFCWT_no_fill"
+      }
+      labels {
+        name = "FOFCWT,PHFOFCWT"
+      }
+    }
+    default_miller_array = "6pgy.updated_refine_001.mtz"
+    model {
+      file = "6pgy.updated_refine_001.pdb"
+    }
+    default_model = "6pgy.updated_refine_001.pdb"
+  }
+  solvent_exclusion_mask_selection = chain A and resname MTN and resseq 203
+  r_free_flags_labels = R-free-flags
+
+
+Starting job
+===============================================================================
+Validating inputs:
+
+Using model file: 6pgy.updated_refine_001.pdb
+Using reflection file(s): ['6pgy.updated_refine_001.mtz']
+*******************************************************************************
+Selecting atoms...
+
+Selection string: chain A and resname MTN and resseq 203
+Number of atoms selected: 27
+HETATM 2690  C1  MTN A 203     -20.344   8.133  30.299  1.00 80.23           C
+HETATM 2691  C2  MTN A 203     -21.204   7.388  29.330  1.00 71.63           C
+HETATM 2692  C3  MTN A 203     -22.502   7.564  29.570  1.00 65.40           C
+HETATM 2693  C4  MTN A 203     -23.571   6.900  28.813  1.00 67.19           C
+HETATM 2694  C5  MTN A 203     -22.772   8.447  30.762  1.00 78.66           C
+HETATM 2695  C6  MTN A 203     -23.728   9.660  30.603  1.00 71.04           C
+HETATM 2696  C7  MTN A 203     -23.299   7.546  31.852  1.00 84.67           C
+HETATM 2697  C8  MTN A 203     -19.572   7.150  31.203  1.00 67.66           C
+HETATM 2698  C9  MTN A 203     -19.448   9.223  29.723  1.00 54.09           C
+HETATM 2699  N1  MTN A 203     -21.371   8.790  31.125  1.00 90.32           N
+HETATM 2700  O1  MTN A 203     -21.057   9.722  31.907  1.00 91.58           O
+HETATM 2701  S1  MTN A 203     -24.172   7.847  27.356  1.00 58.96           S
+HETATM 2702  H2  MTN A 203     -20.852   6.866  28.645  1.00 85.97           H
+HETATM 2703  H41 MTN A 203     -24.344   6.751  29.380  1.00 80.63           H
+HETATM 2704  H42 MTN A 203     -23.265   6.044  28.475  1.00 80.63           H
+HETATM 2705  H61 MTN A 203     -24.636   9.365  30.431  1.00 85.26           H
+HETATM 2706  H62 MTN A 203     -23.452  10.224  29.864  1.00 85.26           H
+HETATM 2707  H63 MTN A 203     -23.737  10.202  31.407  1.00 85.26           H
+HETATM 2708  H71 MTN A 203     -22.890   6.671  31.765  1.00101.61           H
+HETATM 2709  H72 MTN A 203     -23.077   7.929  32.715  1.00101.61           H
+HETATM 2710  H73 MTN A 203     -24.262   7.470  31.763  1.00101.61           H
+HETATM 2711  H81 MTN A 203     -19.043   7.629  31.861  1.00 81.20           H
+HETATM 2712  H82 MTN A 203     -20.183   6.565  31.677  1.00 81.20           H
+HETATM 2713  H83 MTN A 203     -18.972   6.598  30.679  1.00 81.20           H
+HETATM 2714  H91 MTN A 203     -19.989   9.849  29.218  1.00 64.92           H
+HETATM 2715  H92 MTN A 203     -19.002   9.687  30.448  1.00 64.92           H
+HETATM 2716  H93 MTN A 203     -18.787   8.818  29.139  1.00 64.92           H
+
+*******************************************************************************
+Input data...
+  Reflection data: ['I-obs', 'SIGI-obs']
+  Free-R flags: ['R-free-flags']
+
+Working crystal symmetry after inspecting all inputs:
+Unit cell: (61.02, 61.02, 96.481, 90, 90, 120)
+Space group: P 32 2 1 (No. 154)
+*******************************************************************************
+R factors for unmodified input model and data:
+R_work = 0.1523 R_free = 0.1875
+*******************************************************************************
+R factor for polder map
+R_work = 0.1624 R_free = 0.1942
+*******************************************************************************
+R factor for OMIT map (ligand is excluded for mask calculation):
+R_work = 0.1547 R_free = 0.1869
+*******************************************************************************
+File 6pgy_polder_map_coeffs.mtz was written.
+Map 1: calculated Fobs with ligand
+Map 2: calculated Fobs without ligand
+Map 3: real Fobs data
+CC(1,2): 0.3799
+CC(1,3): 0.8586
+CC(2,3): 0.4542
+Peak CC:
+CC(1,2): 0.5462
+CC(1,3): 0.7945
+CC(2,3): 0.5333
+q    D(1,2) D(1,3) D(2,3)
+0.10 0.7061 0.7166 0.7286
+0.20 0.5290 0.5653 0.5772
+0.30 0.4558 0.4790 0.5228
+0.40 0.4237 0.4225 0.5194
+0.50 0.5089 0.4175 0.5630
+0.60 0.6377 0.3977 0.6670
+0.70 0.8254 0.3316 0.7333
+0.80 0.9634 0.2797 0.8290
+0.90 1.0351 0.2509 0.9645
+0.91 1.0401 0.2674 0.9806
+0.92 1.0508 0.2719 0.9920
+0.93 1.0426 0.2513 0.9907
+0.94 1.0380 0.2541 1.0045
+0.95 1.0333 0.2676 0.9991
+0.96 1.0246 0.2500 1.0352
+0.97 1.0268 0.2602 1.0268
+0.98 1.0141 0.2690 1.0072
+0.99 0.9833 0.2185 0.9833
+*******************************************************************************
+The polder map is likely to show the omitted atoms.
+*******************************************************************************
+Finished
+
+===============================================================================
+Job complete
+usr+sys time: 10.57 seconds
+wall clock time: 10.57 seconds

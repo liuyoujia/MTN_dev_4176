@@ -1,0 +1,152 @@
+Starting phenix.polder
+on Tue Apr  6 05:30:22 2021 by liuyoujia
+===============================================================================
+
+Processing files:
+-------------------------------------------------------------------------------
+
+  Found model, 3v3x.updated_refine_001.pdb
+  Found miller_array, 3v3x.updated_refine_001.mtz
+
+Processing PHIL parameters:
+-------------------------------------------------------------------------------
+
+  Adding command-line PHIL:
+  -------------------------
+    solvent_exclusion_mask_selection=chain D and resname MTN and resseq 81 and altloc B
+    r_free_flags_label=R-free-flags
+
+Final processed PHIL parameters:
+-------------------------------------------------------------------------------
+  data_manager {
+    miller_array {
+      file = "3v3x.updated_refine_001.mtz"
+      labels {
+        name = "F-obs,SIGF-obs"
+      }
+      labels {
+        name = "R-free-flags"
+      }
+      labels {
+        name = "F-obs-filtered,SIGF-obs-filtered"
+      }
+      labels {
+        name = "F-model,PHIF-model"
+      }
+      labels {
+        name = "2FOFCWT,PH2FOFCWT"
+      }
+      labels {
+        name = "2FOFCWT_no_fill,PH2FOFCWT_no_fill"
+      }
+      labels {
+        name = "FOFCWT,PHFOFCWT"
+      }
+    }
+    default_miller_array = "3v3x.updated_refine_001.mtz"
+    model {
+      file = "3v3x.updated_refine_001.pdb"
+    }
+    default_model = "3v3x.updated_refine_001.pdb"
+  }
+  solvent_exclusion_mask_selection = chain D and resname MTN and resseq 81 \
+                                     and altloc B
+  r_free_flags_labels = R-free-flags
+
+
+Starting job
+===============================================================================
+Validating inputs:
+
+Using model file: 3v3x.updated_refine_001.pdb
+Using reflection file(s): ['3v3x.updated_refine_001.mtz']
+*******************************************************************************
+Selecting atoms...
+
+Selection string: chain D and resname MTN and resseq 81 and altloc B
+Number of atoms selected: 27
+HETATM 3618  C1 BMTN D  81      28.434  24.299   8.695  0.33 55.32           C
+HETATM 3619  C2 BMTN D  81      26.959  24.136   8.483  0.33 49.16           C
+HETATM 3620  C3 BMTN D  81      26.502  22.946   8.881  0.33 45.83           C
+HETATM 3621  C4 BMTN D  81      25.088  22.540   8.799  0.33 42.39           C
+HETATM 3622  C5 BMTN D  81      27.598  22.061   9.450  0.33 54.56           C
+HETATM 3623  C6 BMTN D  81      27.848  20.792   8.601  0.33 52.85           C
+HETATM 3624  C7 BMTN D  81      27.385  21.654  10.898  0.33 48.97           C
+HETATM 3625  C8 BMTN D  81      28.794  25.474   9.614  0.33 60.90           C
+HETATM 3626  C9 BMTN D  81      29.190  24.470   7.385  0.33 50.02           C
+HETATM 3627  N1 BMTN D  81      28.755  22.983   9.308  0.33 58.06           N
+HETATM 3628  O1 BMTN D  81      29.883  22.717   9.804  0.33 58.38           O
+HETATM 3629  S1 BMTN D  81      24.429  22.091   7.130  0.33 43.26           S
+HETATM 3630  H2 BMTN D  81      26.434  24.807   8.111  0.33 58.93           H
+HETATM 3631  H41BMTN D  81      24.522  23.261   9.116  0.33 50.80           H
+HETATM 3632  H42BMTN D  81      24.938  21.760   9.355  0.33 50.80           H
+HETATM 3633  H61BMTN D  81      28.125  21.025   7.701  0.33 63.35           H
+HETATM 3634  H62BMTN D  81      27.043  20.254   8.537  0.33 63.35           H
+HETATM 3635  H63BMTN D  81      28.544  20.243   8.995  0.33 63.35           H
+HETATM 3636  H71BMTN D  81      27.830  22.293  11.476  0.33 58.71           H
+HETATM 3637  H72BMTN D  81      26.434  21.644  11.089  0.33 58.71           H
+HETATM 3638  H73BMTN D  81      27.758  20.770  11.037  0.33 58.71           H
+HETATM 3639  H81BMTN D  81      28.006  25.809  10.070  0.33 73.01           H
+HETATM 3640  H82BMTN D  81      29.181  26.204   9.105  0.33 73.01           H
+HETATM 3641  H83BMTN D  81      29.438  25.201  10.286  0.33 73.01           H
+HETATM 3642  H91BMTN D  81      28.970  23.736   6.791  0.33 59.96           H
+HETATM 3643  H92BMTN D  81      28.932  25.311   6.975  0.33 59.96           H
+HETATM 3644  H93BMTN D  81      30.143  24.472   7.564  0.33 59.96           H
+
+*******************************************************************************
+Input data...
+  Reflection data: ['F-obs', 'SIGF-obs']
+  Free-R flags: ['R-free-flags']
+
+Working crystal symmetry after inspecting all inputs:
+Unit cell: (105.248, 35.747, 86.989, 90, 126.37, 90)
+Space group: C 1 2 1 (No. 5)
+*******************************************************************************
+R factors for unmodified input model and data:
+R_work = 0.2090 R_free = 0.2689
+*******************************************************************************
+R factor for polder map
+R_work = 0.2133 R_free = 0.2688
+*******************************************************************************
+R factor for OMIT map (ligand is excluded for mask calculation):
+R_work = 0.2100 R_free = 0.2670
+*******************************************************************************
+File 3v3x_polder_map_coeffs.mtz was written.
+Map 1: calculated Fobs with ligand
+Map 2: calculated Fobs without ligand
+Map 3: real Fobs data
+CC(1,2): 0.1523
+CC(1,3): 0.5630
+CC(2,3): 0.0708
+Peak CC:
+CC(1,2): 0.2249
+CC(1,3): 0.5180
+CC(2,3): 0.0944
+q    D(1,2) D(1,3) D(2,3)
+0.10 0.7753 0.7738 0.9772
+0.20 0.7707 0.6967 0.9479
+0.30 0.7707 0.6318 0.9306
+0.40 0.7868 0.6331 0.8957
+0.50 0.8048 0.6672 0.8874
+0.60 0.8556 0.6801 0.9141
+0.70 0.9608 0.6586 0.9640
+0.80 1.0133 0.6279 1.0236
+0.90 1.0643 0.6193 1.0444
+0.91 1.0805 0.6150 1.0402
+0.92 1.0808 0.6208 1.0359
+0.93 1.0740 0.5919 1.0359
+0.94 1.0639 0.5710 1.0346
+0.95 1.0489 0.5418 1.0286
+0.96 1.0322 0.5448 1.0179
+0.97 1.0216 0.5297 1.0026
+0.98 1.0182 0.5688 1.0111
+0.99 1.0009 0.5561 1.0009
+*******************************************************************************
+The polder map is very likely to show bulk-solvent or noise.
+*******************************************************************************
+Finished
+
+===============================================================================
+Job complete
+usr+sys time: 12.24 seconds
+wall clock time: 12.24 seconds

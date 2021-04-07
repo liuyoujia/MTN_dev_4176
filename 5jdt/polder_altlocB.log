@@ -1,0 +1,164 @@
+Starting phenix.polder
+on Tue Apr  6 06:04:49 2021 by liuyoujia
+===============================================================================
+
+Processing files:
+-------------------------------------------------------------------------------
+
+  Found model, 5jdt.updated_refine_001.pdb
+  Found miller_array, 5jdt.updated_refine_001.mtz
+
+Processing PHIL parameters:
+-------------------------------------------------------------------------------
+
+  Adding command-line PHIL:
+  -------------------------
+    solvent_exclusion_mask_selection=chain A and resname MTN and resseq 201 and altloc B
+    r_free_flags_label=R-free-flags
+
+Final processed PHIL parameters:
+-------------------------------------------------------------------------------
+  data_manager {
+    miller_array {
+      file = "5jdt.updated_refine_001.mtz"
+      labels {
+        name = "F-obs,SIGF-obs"
+      }
+      labels {
+        name = "R-free-flags"
+      }
+      labels {
+        name = "F-obs-filtered,SIGF-obs-filtered"
+      }
+      labels {
+        name = "F-model,PHIF-model"
+      }
+      labels {
+        name = "2FOFCWT,PH2FOFCWT"
+      }
+      labels {
+        name = "2FOFCWT_no_fill,PH2FOFCWT_no_fill"
+      }
+      labels {
+        name = "FOFCWT,PHFOFCWT"
+      }
+    }
+    default_miller_array = "5jdt.updated_refine_001.mtz"
+    model {
+      file = "5jdt.updated_refine_001.pdb"
+    }
+    default_model = "5jdt.updated_refine_001.pdb"
+  }
+  solvent_exclusion_mask_selection = chain A and resname MTN and resseq 201 \
+                                     and altloc B
+  r_free_flags_labels = R-free-flags
+
+
+Starting job
+===============================================================================
+Validating inputs:
+
+Using model file: 5jdt.updated_refine_001.pdb
+Using reflection file(s): ['5jdt.updated_refine_001.mtz']
+*******************************************************************************
+Selecting atoms...
+
+Selection string: chain A and resname MTN and resseq 201 and altloc B
+Number of atoms selected: 27
+HETATM 3385  C1 BMTN A 201      32.013 -25.657 -12.508  0.63 11.92           C
+ANISOU 3385  C1 BMTN A 201     1265   2174   1091     61   -141    320       C
+HETATM 3386  C2 BMTN A 201      32.768 -25.861 -13.790  0.63 10.88           C
+ANISOU 3386  C2 BMTN A 201     1184   1922   1029    101   -174    275       C
+HETATM 3387  C3 BMTN A 201      33.743 -24.971 -13.973  0.63 10.48           C
+ANISOU 3387  C3 BMTN A 201     1180   1832    971     52   -135    234       C
+HETATM 3388  C4 BMTN A 201      34.620 -24.933 -15.171  0.63 10.46           C
+ANISOU 3388  C4 BMTN A 201     1202   1814    957     50    -93    108       C
+HETATM 3389  C5 BMTN A 201      33.820 -23.995 -12.813  0.63 11.37           C
+ANISOU 3389  C5 BMTN A 201     1343   1977    999     92   -105    188       C
+HETATM 3390  C6 BMTN A 201      35.161 -23.915 -12.078  0.63 11.20           C
+ANISOU 3390  C6 BMTN A 201     1390   1857   1009     24   -177     73       C
+HETATM 3391  C7 BMTN A 201      33.397 -22.612 -13.249  0.63 12.46           C
+ANISOU 3391  C7 BMTN A 201     1555   2082   1097    329    -72    131       C
+HETATM 3392  C8 BMTN A 201      30.580 -25.199 -12.792  0.63 12.38           C
+ANISOU 3392  C8 BMTN A 201     1125   2412   1167     22   -170    272       C
+HETATM 3393  C9 BMTN A 201      31.962 -26.877 -11.609  0.63 12.90           C
+ANISOU 3393  C9 BMTN A 201     1445   2304   1152    165    -87    457       C
+HETATM 3394  N1 BMTN A 201      32.771 -24.527 -11.923  0.63 12.51           N
+ANISOU 3394  N1 BMTN A 201     1421   2295   1037     88     12    189       N
+HETATM 3395  O1 BMTN A 201      32.363 -23.876 -10.917  0.63 13.44           O
+ANISOU 3395  O1 BMTN A 201     1585   2533    990    279    108    153       O
+HETATM 3396  S1 BMTN A 201      36.210 -25.896 -15.072  0.63 10.60           S
+ANISOU 3396  S1 BMTN A 201     1173   1881    974     71    -83    -60       S
+HETATM 3397  H2 BMTN A 201      32.560 -26.547 -14.383  0.63 13.07           H
+HETATM 3398  H41BMTN A 201      34.145 -25.288 -15.938  0.63 12.56           H
+HETATM 3399  H42BMTN A 201      34.878 -24.018 -15.362  0.63 12.56           H
+HETATM 3400  H61BMTN A 201      35.505 -24.802 -11.888  0.63 13.45           H
+HETATM 3401  H62BMTN A 201      35.821 -23.446 -12.612  0.63 13.45           H
+HETATM 3402  H63BMTN A 201      35.067 -23.443 -11.236  0.63 13.45           H
+HETATM 3403  H71BMTN A 201      33.196 -22.078 -12.464  0.63 14.96           H
+HETATM 3404  H72BMTN A 201      32.608 -22.683 -13.809  0.63 14.96           H
+HETATM 3405  H73BMTN A 201      34.119 -22.202 -13.750  0.63 14.96           H
+HETATM 3406  H81BMTN A 201      30.107 -25.857 -13.326  0.63 14.87           H
+HETATM 3407  H82BMTN A 201      30.089 -25.071 -11.966  0.63 14.87           H
+HETATM 3408  H83BMTN A 201      30.577 -24.359 -13.278  0.63 14.87           H
+HETATM 3409  H91BMTN A 201      31.571 -26.630 -10.756  0.63 15.48           H
+HETATM 3410  H92BMTN A 201      31.421 -27.563 -12.030  0.63 15.48           H
+HETATM 3411  H93BMTN A 201      32.863 -27.210 -11.471  0.63 15.48           H
+
+*******************************************************************************
+Input data...
+  Reflection data: ['F-obs', 'SIGF-obs']
+  Free-R flags: ['R-free-flags']
+
+Working crystal symmetry after inspecting all inputs:
+Unit cell: (60.28, 60.28, 96.97, 90, 90, 120)
+Space group: P 32 2 1 (No. 154)
+*******************************************************************************
+R factors for unmodified input model and data:
+R_work = 0.1181 R_free = 0.1313
+*******************************************************************************
+R factor for polder map
+R_work = 0.1236 R_free = 0.1355
+*******************************************************************************
+R factor for OMIT map (ligand is excluded for mask calculation):
+R_work = 0.1237 R_free = 0.1356
+*******************************************************************************
+File 5jdt_polder_map_coeffs.mtz was written.
+Map 1: calculated Fobs with ligand
+Map 2: calculated Fobs without ligand
+Map 3: real Fobs data
+CC(1,2): 0.0366
+CC(1,3): 0.9295
+CC(2,3): 0.0031
+Peak CC:
+CC(1,2): 0.0437
+CC(1,3): 0.6154
+CC(2,3): -0.0890
+q    D(1,2) D(1,3) D(2,3)
+0.10 1.0288 0.8892 1.0847
+0.20 0.9673 0.7683 1.0308
+0.30 0.9474 0.6996 1.0200
+0.40 0.9443 0.6547 1.0342
+0.50 0.9588 0.6101 1.0849
+0.60 0.9737 0.5464 1.0996
+0.70 0.9937 0.4483 1.0693
+0.80 1.0291 0.3234 1.0486
+0.90 0.9994 0.1550 0.9958
+0.91 0.9980 0.1458 0.9925
+0.92 1.0009 0.1398 0.9912
+0.93 1.0020 0.1373 0.9916
+0.94 1.0031 0.1345 0.9938
+0.95 1.0104 0.1293 0.9974
+0.96 1.0181 0.1125 1.0063
+0.97 1.0227 0.1207 1.0156
+0.98 1.0155 0.1303 1.0155
+0.99 1.0071 0.1650 1.0090
+*******************************************************************************
+The polder map is likely to show the omitted atoms.
+*******************************************************************************
+Finished
+
+===============================================================================
+Job complete
+usr+sys time: 71.78 seconds
+wall clock time: 71.79 seconds

@@ -1,0 +1,47 @@
+data_manager {
+  miller_array {
+    file = None
+    labels {
+      name = None
+      type = *x_ray neutron electron
+    }
+  }
+  default_miller_array = None
+  model {
+    file = None
+    type = *x_ray neutron electron
+  }
+  default_model = None
+  phil_files = None
+  default_phil = None
+}
+job_title = """chain F"""
+polder {
+  resolution_factor = 0.25
+  sphere_radius = 5.0
+  box_buffer = None
+  compute_box = False
+  altloc_scale = False
+}
+model_file_name = C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\5bmg\5bmg.updated_refine_001.pdb
+solvent_exclusion_mask_selection = """chain F and resname MTN and resseq 101"""
+reflection_file_name = C:\Users\youjia\Desktop\MTN_dev_4176\MTN_dev_4176\5bmg\5bmg.updated_refine_001.mtz
+data_labels = I-obs,SIGI-obs
+r_free_flags_labels = R-free-flags
+high_resolution = None
+low_resolution = None
+scattering_table = *n_gaussian wk1995 it1992 neutron electron
+output_file_name_prefix = None
+mask_output = False
+debug = False
+gui {
+  output_dir = None
+}
+output {
+  filename = None
+  file_name = None
+  prefix = None
+  suffix = None
+  serial = 0
+  overwrite = False
+}

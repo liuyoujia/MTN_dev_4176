@@ -1,0 +1,153 @@
+Starting phenix.polder
+on Tue Apr  6 03:47:49 2021 by liuyoujia
+===============================================================================
+
+Processing files:
+-------------------------------------------------------------------------------
+
+  Found model, 2cuu.updated_refine_001.pdb
+  Found miller_array, 2cuu.updated_refine_001.mtz
+
+Processing PHIL parameters:
+-------------------------------------------------------------------------------
+
+  Adding command-line PHIL:
+  -------------------------
+    solvent_exclusion_mask_selection=chain A and resname MTN and resseq 182 and altloc B
+    r_free_flags_label=R-free-flags
+
+Final processed PHIL parameters:
+-------------------------------------------------------------------------------
+  data_manager {
+    miller_array {
+      file = "2cuu.updated_refine_001.mtz"
+      labels {
+        name = "F-obs,SIGF-obs"
+      }
+      labels {
+        name = "R-free-flags"
+      }
+      labels {
+        name = "F-obs-filtered,SIGF-obs-filtered"
+      }
+      labels {
+        name = "F-model,PHIF-model"
+      }
+      labels {
+        name = "2FOFCWT,PH2FOFCWT"
+      }
+      labels {
+        name = "2FOFCWT_no_fill,PH2FOFCWT_no_fill"
+      }
+      labels {
+        name = "FOFCWT,PHFOFCWT"
+      }
+    }
+    default_miller_array = "2cuu.updated_refine_001.mtz"
+    model {
+      file = "2cuu.updated_refine_001.pdb"
+    }
+    default_model = "2cuu.updated_refine_001.pdb"
+  }
+  solvent_exclusion_mask_selection = chain A and resname MTN and resseq 182 \
+                                     and altloc B
+  r_free_flags_labels = R-free-flags
+
+
+Starting job
+===============================================================================
+Validating inputs:
+
+Using model file: 2cuu.updated_refine_001.pdb
+Using reflection file(s): ['2cuu.updated_refine_001.mtz']
+*******************************************************************************
+Selecting atoms...
+
+Selection string: chain A and resname MTN and resseq 182 and altloc B
+Number of atoms selected: 27
+HETATM 2722  C1 BMTN A 182      33.333   9.195 -16.833  0.57 38.11           C
+HETATM 2723  C2 BMTN A 182      33.200   9.714 -15.436  0.57 38.47           C
+HETATM 2724  C3 BMTN A 182      34.358   9.732 -14.783  0.57 39.83           C
+HETATM 2725  C4 BMTN A 182      34.479  10.257 -13.408  0.57 36.21           C
+HETATM 2726  C5 BMTN A 182      35.502   9.181 -15.608  0.57 41.69           C
+HETATM 2727  C6 BMTN A 182      36.051   7.824 -15.116  0.57 40.36           C
+HETATM 2728  C7 BMTN A 182      36.635  10.147 -15.860  0.57 43.90           C
+HETATM 2729  C8 BMTN A 182      32.997  10.265 -17.876  0.57 38.62           C
+HETATM 2730  C9 BMTN A 182      32.536   7.926 -17.062  0.57 41.65           C
+HETATM 2731  N1 BMTN A 182      34.781   8.894 -16.867  0.57 40.66           N
+HETATM 2732  O1 BMTN A 182      35.373   8.513 -17.915  0.57 46.75           O
+HETATM 2733  S1 BMTN A 182      34.750   9.076 -12.049  0.57 34.21           S
+HETATM 2734  H2 BMTN A 182      32.385   9.990 -15.082  0.57 46.16           H
+HETATM 2735  H41BMTN A 182      35.228  10.872 -13.362  0.57 43.46           H
+HETATM 2736  H42BMTN A 182      33.670  10.735 -13.171  0.57 43.46           H
+HETATM 2737  H61BMTN A 182      36.910   7.630 -15.522  0.57 48.44           H
+HETATM 2738  H62BMTN A 182      35.444   7.102 -15.340  0.57 48.44           H
+HETATM 2739  H63BMTN A 182      36.170   7.827 -14.153  0.57 48.44           H
+HETATM 2740  H71BMTN A 182      37.075  10.347 -15.018  0.57 52.67           H
+HETATM 2741  H72BMTN A 182      36.278  10.962 -16.247  0.57 52.67           H
+HETATM 2742  H73BMTN A 182      37.268   9.742 -16.473  0.57 52.67           H
+HETATM 2743  H81BMTN A 182      33.360  11.126 -17.616  0.57 46.35           H
+HETATM 2744  H82BMTN A 182      33.366  10.031 -18.742  0.57 46.35           H
+HETATM 2745  H83BMTN A 182      32.036  10.361 -17.974  0.57 46.35           H
+HETATM 2746  H91BMTN A 182      32.777   7.547 -17.922  0.57 49.97           H
+HETATM 2747  H92BMTN A 182      32.735   7.291 -16.357  0.57 49.97           H
+HETATM 2748  H93BMTN A 182      31.589   8.138 -17.053  0.57 49.97           H
+
+*******************************************************************************
+Input data...
+  Reflection data: ['F-obs', 'SIGF-obs']
+  Free-R flags: ['R-free-flags']
+
+Working crystal symmetry after inspecting all inputs:
+Unit cell: (60.405, 60.405, 96.055, 90, 90, 120)
+Space group: P 32 2 1 (No. 154)
+*******************************************************************************
+R factors for unmodified input model and data:
+R_work = 0.1693 R_free = 0.2050
+*******************************************************************************
+R factor for polder map
+R_work = 0.1750 R_free = 0.2107
+*******************************************************************************
+R factor for OMIT map (ligand is excluded for mask calculation):
+R_work = 0.1713 R_free = 0.2040
+*******************************************************************************
+File 2cuu_polder_map_coeffs.mtz was written.
+Map 1: calculated Fobs with ligand
+Map 2: calculated Fobs without ligand
+Map 3: real Fobs data
+CC(1,2): 0.3791
+CC(1,3): 0.7429
+CC(2,3): 0.5437
+Peak CC:
+CC(1,2): 0.5116
+CC(1,3): 0.6925
+CC(2,3): 0.5945
+q    D(1,2) D(1,3) D(2,3)
+0.10 0.4147 0.6269 0.4232
+0.20 0.4636 0.5625 0.3472
+0.30 0.4907 0.5328 0.4194
+0.40 0.5269 0.4530 0.4897
+0.50 0.6083 0.4606 0.5792
+0.60 0.6988 0.4730 0.6681
+0.70 0.8284 0.4907 0.7790
+0.80 0.9637 0.4959 0.8516
+0.90 1.0224 0.4872 0.9361
+0.91 1.0263 0.5038 0.9466
+0.92 1.0273 0.5019 0.9660
+0.93 1.0303 0.5011 0.9772
+0.94 1.0310 0.4900 0.9867
+0.95 1.0201 0.4969 1.0039
+0.96 1.0245 0.4498 1.0095
+0.97 1.0288 0.3495 1.0156
+0.98 1.0134 0.2399 1.0183
+0.99 0.9983 0.1551 0.9983
+*******************************************************************************
+The polder map is more likely to show bulk-solvent or noise
+  instead of the omitted atoms. But it is recommended to inspect the maps to confirm.
+*******************************************************************************
+Finished
+
+===============================================================================
+Job complete
+usr+sys time: 13.85 seconds
+wall clock time: 13.85 seconds

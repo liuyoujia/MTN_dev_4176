@@ -1,0 +1,136 @@
+Starting phenix.polder
+on Tue Apr  6 06:07:43 2021 by liuyoujia
+===============================================================================
+
+Processing files:
+-------------------------------------------------------------------------------
+
+  Found model, 6pgz.updated_refine_001.pdb
+  Found miller_array, 6pgz.updated_refine_001.mtz
+
+Processing PHIL parameters:
+-------------------------------------------------------------------------------
+
+  Adding command-line PHIL:
+  -------------------------
+    solvent_exclusion_mask_selection=chain B and resname MTN and resseq 300
+    r_free_flags_labels=R-free-flags
+
+Final processed PHIL parameters:
+-------------------------------------------------------------------------------
+  data_manager {
+    miller_array {
+      file = "6pgz.updated_refine_001.mtz"
+      labels {
+        name = "I-obs,SIGI-obs"
+      }
+      labels {
+        name = "R-free-flags"
+      }
+      labels {
+        name = "F-obs-filtered,SIGF-obs-filtered"
+      }
+      labels {
+        name = "F-model,PHIF-model"
+      }
+      labels {
+        name = "2FOFCWT,PH2FOFCWT"
+      }
+      labels {
+        name = "2FOFCWT_no_fill,PH2FOFCWT_no_fill"
+      }
+      labels {
+        name = "FOFCWT,PHFOFCWT"
+      }
+    }
+    default_miller_array = "6pgz.updated_refine_001.mtz"
+    model {
+      file = "6pgz.updated_refine_001.pdb"
+    }
+    default_model = "6pgz.updated_refine_001.pdb"
+  }
+  solvent_exclusion_mask_selection = chain B and resname MTN and resseq 300
+  r_free_flags_labels = R-free-flags
+
+
+Starting job
+===============================================================================
+Validating inputs:
+
+Using model file: 6pgz.updated_refine_001.pdb
+Using reflection file(s): ['6pgz.updated_refine_001.mtz']
+*******************************************************************************
+Selecting atoms...
+
+Selection string: chain B and resname MTN and resseq 300
+Number of atoms selected: 12
+HETATM 5257  C1  MTN B 300      16.007  20.125  11.811  1.00 15.58           C
+HETATM 5258  C2  MTN B 300      16.722  21.358  11.397  1.00 15.59           C
+HETATM 5259  C3  MTN B 300      16.212  21.912  10.317  1.00 17.42           C
+HETATM 5260  C4  MTN B 300      16.765  23.176   9.797  1.00 29.27           C
+HETATM 5261  C5  MTN B 300      15.038  21.135   9.732  1.00 24.57           C
+HETATM 5262  C6  MTN B 300      13.676  21.788   9.850  1.00 17.76           C
+HETATM 5263  C7  MTN B 300      15.222  20.646   8.283  1.00 24.55           C
+HETATM 5264  C8  MTN B 300      16.782  18.812  11.774  1.00 17.98           C
+HETATM 5265  C9  MTN B 300      15.336  20.367  13.181  1.00 14.74           C
+HETATM 5266  N1  MTN B 300      15.003  20.032  10.733  1.00 22.54           N
+HETATM 5267  O1  MTN B 300      14.400  18.941  10.540  1.00 15.53           O
+HETATM 5268  S1  MTN B 300      18.579  23.114   9.556  1.00 31.52           S
+
+*******************************************************************************
+Input data...
+  Reflection data: ['I-obs', 'SIGI-obs']
+  Free-R flags: ['R-free-flags']
+
+Working crystal symmetry after inspecting all inputs:
+Unit cell: (51.941, 53.328, 58.607, 90, 102.93, 90)
+Space group: P 1 21 1 (No. 4)
+*******************************************************************************
+R factors for unmodified input model and data:
+R_work = 0.2285 R_free = 0.2950
+*******************************************************************************
+R factor for polder map
+R_work = 0.2351 R_free = 0.2999
+*******************************************************************************
+R factor for OMIT map (ligand is excluded for mask calculation):
+R_work = 0.2321 R_free = 0.2959
+*******************************************************************************
+File 6pgz_polder_map_coeffs.mtz was written.
+Map 1: calculated Fobs with ligand
+Map 2: calculated Fobs without ligand
+Map 3: real Fobs data
+CC(1,2): 0.3433
+CC(1,3): 0.9246
+CC(2,3): 0.3043
+Peak CC:
+CC(1,2): 0.4036
+CC(1,3): 0.8627
+CC(2,3): 0.3640
+q    D(1,2) D(1,3) D(2,3)
+0.10 1.0383 0.6567 0.9910
+0.20 0.8919 0.6007 0.9036
+0.30 0.7860 0.4539 0.8444
+0.40 0.7044 0.3849 0.7521
+0.50 0.6475 0.2758 0.6826
+0.60 0.6401 0.2230 0.6567
+0.70 0.6542 0.1775 0.6593
+0.80 0.6839 0.1548 0.6956
+0.90 0.6774 0.1568 0.7041
+0.91 0.6859 0.1788 0.7087
+0.92 0.6873 0.1881 0.6801
+0.93 0.6953 0.1759 0.6666
+0.94 0.7411 0.1935 0.7459
+0.95 0.7791 0.1850 0.7511
+0.96 0.8251 0.2080 0.8389
+0.97 0.8966 0.2196 0.8966
+0.98 1.0052 0.2173 0.9780
+0.99 0.9681 0.3765 0.9681
+*******************************************************************************
+The polder map is likely to show the omitted atoms.
+*******************************************************************************
+Finished
+
+===============================================================================
+Job complete
+usr+sys time: 12.44 seconds
+wall clock time: 12.44 seconds
