@@ -17,11 +17,11 @@ planes               : False
 quiet                : False
 use_cache            : True
 --------------------------------------------------------------------------------
-processed bond : 0.1
-processed angle : 0.3
-processed dihedral : 0.3
+processed bond : 0.3
+processed angle : 0.4
+processed dihedral : 0.5
 LOADED ['chirality', 'angle', 'dihedral', 'bond']
-Time to parse 0.33
+Time to parse 0.49
 
 RMS results for model
 
@@ -32,7 +32,7 @@ RMS(D/Z)
   dihedral   9.482( 2069)   9.481( 1997)   9.501(   72)   0.777( 2069)   0.779( 1997)   0.731(   72)
 
 Selecting bonds        Time to select bonds        : 0.04s
-Selecting angles       Time to select angles       : 0.14s
+Selecting angles       Time to select angles       : 0.13s
 Selecting dihedrals    Time to select dihedrals    : 0.04s
 
 RMS results for selection

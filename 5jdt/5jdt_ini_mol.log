@@ -1,0 +1,658 @@
+
+============================== Collecting inputs ==============================
+
+
+                   ----------Processing PDB file(s)----------                  
+
+
+  Symmetric amino acids flipped
+    Residue "A TYR  139": "CD1" <-> "CD2" "CE1" <-> "CE2" "HD1" <-> "HD2" "HE1" <-> "HE2"
+  Time to flip residues: 0.00s
+
+  Monomer Library directory:
+    "/home/liuyoujia/phenix-dev-4176/modules/chem_data/mon_lib"
+  Total number of atoms: 3749
+  Number of models: 1
+  Model: ""
+    Number of chains: 2
+    Chain: "A"
+      Number of atoms: 3358
+      Number of conformers: 2
+      Conformer: "A"
+        Number of residues, atoms: 164, 2636
+          Classifications: {'peptide': 164}
+          Modifications used: {'COO': 1, 'NH3': 1}
+          Link IDs: {'PTRANS': 3, 'TRANS': 160}
+      Conformer: "B"
+        Number of residues, atoms: 164, 2636
+          Classifications: {'peptide': 164}
+          Modifications used: {'COO': 1, 'NH3': 1}
+          Link IDs: {'PTRANS': 3, 'TRANS': 160}
+          bond proxies already assigned to first conformer: 1902
+    Chain: "A"
+      Number of atoms: 391
+      Number of conformers: 2
+      Conformer: "A"
+        Number of residues, atoms: 288, 327
+          Unusual residues: {'  K': 1, 'AZI': 2, 'MTN': 1, ' CL': 3, 'BME': 1}
+          Classifications: {'undetermined': 8, 'water': 280}
+          Link IDs: {None: 287}
+          Unresolved non-hydrogen bonds: 4
+          Unresolved non-hydrogen angles: 7
+      Conformer: "B"
+        Number of residues, atoms: 276, 313
+          Unusual residues: {'AZI': 1, 'MTN': 1, ' CL': 3, 'BME': 1}
+          Classifications: {'undetermined': 6, 'water': 270}
+          Link IDs: {None: 275}
+          Unresolved non-hydrogen bonds: 4
+          Unresolved non-hydrogen angles: 7
+          bond proxies already assigned to first conformer: 2
+  Residues with excluded nonbonded symmetry interactions: 92
+    residue:
+      pdb=" N  AMET A   1 " occ=0.61
+      ... (36 atoms not shown)
+      pdb=" HE3BMET A   1 " occ=0.39
+    residue:
+      pdb=" N  AGLU A   5 " occ=0.77
+      ... (28 atoms not shown)
+      pdb=" HG3BGLU A   5 " occ=0.23
+    residue:
+      pdb=" N  ALYS A  16 " occ=0.40
+      ... (42 atoms not shown)
+      pdb=" HZ3BLYS A  16 " occ=0.60
+    residue:
+      pdb=" N  ATYR A  18 " occ=0.56
+      ... (40 atoms not shown)
+      pdb=" HH BTYR A  18 " occ=0.44
+    residue:
+      pdb=" N  AGLU A  22 " occ=0.33
+      ... (28 atoms not shown)
+      pdb=" HG3BGLU A  22 " occ=0.67
+    residue:
+      pdb=" N  ALYS A  43 " occ=0.65
+      ... (42 atoms not shown)
+      pdb=" HZ3BLYS A  43 " occ=0.35
+    residue:
+      pdb=" N  AASN A  53 " occ=0.62
+      ... (26 atoms not shown)
+      pdb="HD22BASN A  53 " occ=0.38
+    residue:
+      pdb=" N  ATHR A  54 " occ=0.51
+      ... (26 atoms not shown)
+      pdb="HG23BTHR A  54 " occ=0.49
+    residue:
+      pdb=" N  AASN A  55 " occ=0.52
+      ... (26 atoms not shown)
+      pdb="HD22BASN A  55 " occ=0.48
+    residue:
+      pdb=" N  AGLY A  56 " occ=0.51
+      ... (12 atoms not shown)
+      pdb=" HA3BGLY A  56 " occ=0.49
+    residue:
+      pdb=" N  AVAL A  57 " occ=0.51
+      ... (30 atoms not shown)
+      pdb="HG23BVAL A  57 " occ=0.49
+    residue:
+      pdb=" N  ALYS A  65 " occ=0.66
+      ... (42 atoms not shown)
+      pdb=" HZ3BLYS A  65 " occ=0.34
+    ... (remaining 80 not shown)
+  Time building chain proxies: 0.66, per 1000 atoms: 0.18
+  Number of scatterers: 3749
+  At special positions: 0
+  Unit cell: (60.28, 60.28, 96.97, 90, 90, 120)
+  Space group: P 32 2 1 (No. 154)
+  Number of sites at special positions: 0
+  Number of scattering types: 7
+    Type Number    sf(0)
+     K       1     19.00
+     Cl      3     17.00
+     S      13     16.00
+     O     606      8.00
+     N     313      7.00
+     C    1047      6.00
+     H    1766      1.00
+    sf(0) = scattering factor at diffraction angle 0.
+
+  Number of disulfides: simple=0, symmetry=0
+  Custom bonds:
+    Warning: Ignoring bond with distance_ideal = None:
+      atom_selection_1 = None
+      atom_selection_2 = None
+    Total number of added/changed bonds: 0
+  Custom angles:
+    Warning: Ignoring angle with angle_ideal = None:
+      atom_selection_1 = None
+      atom_selection_2 = None
+      atom_selection_3 = None
+    Total number of new custom angles: 0
+    Total number of changed angles: 0
+  Custom dihedrals:
+    Warning: Ignoring dihedral with angle_ideal = None:
+      atom_selection_1 = None
+      atom_selection_2 = None
+      atom_selection_3 = None
+      atom_selection_4 = None
+    Total number of custom dihedrals: 0
+  Custom planarities:
+    Warning: Ignoring planarity with with sigma <= 0:
+      atom_selection = None
+None
+    Total number of custom planarities: 0
+  Custom parallelities:
+Warning: Ignoring parallelity with empty atom selection.
+    Total number of custom parallelities: 0
+  Custom bonds:
+    Warning: Ignoring bond with distance_ideal = None:
+      atom_selection_1 = None
+      atom_selection_2 = None
+    Total number of added/changed bonds: 0
+  Custom angles:
+    Warning: Ignoring angle with angle_ideal = None:
+      atom_selection_1 = None
+      atom_selection_2 = None
+      atom_selection_3 = None
+    Total number of new custom angles: 0
+    Total number of changed angles: 0
+  Custom dihedrals:
+    Warning: Ignoring dihedral with angle_ideal = None:
+      atom_selection_1 = None
+      atom_selection_2 = None
+      atom_selection_3 = None
+      atom_selection_4 = None
+    Total number of custom dihedrals: 0
+  Custom planarities:
+    Warning: Ignoring planarity with with sigma <= 0:
+      atom_selection = None
+None
+    Total number of custom planarities: 0
+  Custom parallelities:
+Warning: Ignoring parallelity with empty atom selection.
+    Total number of custom parallelities: 0
+
+  Automatic linking
+    Parameters for automatic linking
+      Linking & cutoffs
+        Metal                : Auto  - 3.50
+        Amimo acid           : False - 1.90
+        Carbohydrate         : True  - 1.99
+        Ligands              : True  - 1.99
+        Small molecules      : False - 1.98
+        Amino acid - RNA/DNA : False
+      
+  Number of custom bonds: simple=2, symmetry=0
+  Number of additional bonds: simple=2, symmetry=0
+  Coordination:
+  Other bonds:
+  Time building additional restraints: 0.73
+  Adding C-beta torsion restraints...
+  Number of C-beta restraints generated:  384
+
+  Time building geometry restraints manager: 0.80 seconds
+
+  NOTE: a complete listing of the restraints can be obtained by requesting
+        output of .geo file.
+
+  Histogram of bond lengths:
+        0.84 -     1.04: 1759
+        1.04 -     1.24: 119
+        1.24 -     1.43: 600
+        1.43 -     1.63: 988
+        1.63 -     1.83: 20
+  Bond restraints: 3486
+  Sorted by residual:
+  bond pdb=" S2 ABME A 205 "
+       pdb=" HS2ABME A 205 "
+    ideal  model  delta    sigma   weight residual
+    1.200  0.960  0.240 1.00e-02 1.00e+04 5.77e+02
+  bond pdb=" S2 BBME A 205 "
+       pdb=" HS2BBME A 205 "
+    ideal  model  delta    sigma   weight residual
+    1.200  0.961  0.239 1.00e-02 1.00e+04 5.72e+02
+  bond pdb=" N1 AAZI A 207 "
+       pdb=" N2 AAZI A 207 "
+    ideal  model  delta    sigma   weight residual
+    1.160  0.886  0.274 2.00e-02 2.50e+03 1.87e+02
+  bond pdb=" O1 BBME A 205 "
+       pdb=" HO1BBME A 205 "
+    ideal  model  delta    sigma   weight residual
+    0.850  0.981 -0.131 1.00e-02 1.00e+04 1.71e+02
+  bond pdb=" O1 ABME A 205 "
+       pdb=" HO1ABME A 205 "
+    ideal  model  delta    sigma   weight residual
+    0.850  0.980 -0.130 1.00e-02 1.00e+04 1.69e+02
+  ... (remaining 3481 not shown)
+
+  Histogram of bond angle deviations from ideal:
+       95.49 -   112.16: 3896
+      112.16 -   128.82: 2435
+      128.82 -   145.49: 8
+      145.49 -   162.15: 0
+      162.15 -   178.82: 2
+  Bond angle restraints: 6341
+  Sorted by residual:
+  angle pdb=" CD  ARG A 145 "
+        pdb=" NE  ARG A 145 "
+        pdb=" CZ  ARG A 145 "
+      ideal   model   delta    sigma   weight residual
+     124.40  117.38    7.02 1.40e+00 5.10e-01 2.52e+01
+  angle pdb=" CA AASN A  68 "
+        pdb=" CB AASN A  68 "
+        pdb=" CG AASN A  68 "
+      ideal   model   delta    sigma   weight residual
+     112.60  117.23   -4.63 1.00e+00 1.00e+00 2.14e+01
+  angle pdb=" NE AARG A  76 "
+        pdb=" CZ AARG A  76 "
+        pdb=" NH2AARG A  76 "
+      ideal   model   delta    sigma   weight residual
+     119.20  123.01   -3.81 9.00e-01 1.23e+00 1.79e+01
+  angle pdb=" NE AARG A 137 "
+        pdb=" CZ AARG A 137 "
+        pdb=" NH1AARG A 137 "
+      ideal   model   delta    sigma   weight residual
+     121.50  117.58    3.92 1.00e+00 1.00e+00 1.54e+01
+  angle pdb=" NE AARG A 137 "
+        pdb=" CZ AARG A 137 "
+        pdb=" NH2AARG A 137 "
+      ideal   model   delta    sigma   weight residual
+     119.20  122.65   -3.45 9.00e-01 1.23e+00 1.47e+01
+  ... (remaining 6336 not shown)
+
+  Histogram of dihedral angle deviations from ideal:
+        0.00 -    11.67: 1242
+       11.67 -    23.33: 101
+       23.33 -    35.00: 24
+       35.00 -    46.67: 9
+       46.67 -    58.33: 7
+  Dihedral angle restraints: 1383
+    sinusoidal: 683
+      harmonic: 700
+  Sorted by residual:
+  dihedral pdb=" CA AARG A 125 "
+           pdb=" C   ARG A 125 "
+           pdb=" N   TRP A 126 "
+           pdb=" CA  TRP A 126 "
+      ideal   model   delta  harmonic     sigma   weight residual
+    -180.00 -161.70  -18.30     0      5.00e+00 4.00e-02 1.34e+01
+  dihedral pdb=" CA BARG A 125 "
+           pdb=" C   ARG A 125 "
+           pdb=" N   TRP A 126 "
+           pdb=" CA  TRP A 126 "
+      ideal   model   delta  harmonic     sigma   weight residual
+    -180.00 -161.99  -18.01     0      5.00e+00 4.00e-02 1.30e+01
+  dihedral pdb=" N   PHE A 114 "
+           pdb=" C   PHE A 114 "
+           pdb=" CA  PHE A 114 "
+           pdb=" CB  PHE A 114 "
+      ideal   model   delta  harmonic     sigma   weight residual
+     122.80  131.17   -8.37     0      2.50e+00 1.60e-01 1.12e+01
+  ... (remaining 1380 not shown)
+
+  Histogram of chiral volume deviations from ideal:
+       0.001 -    0.061: 139
+       0.061 -    0.122: 62
+       0.122 -    0.183: 24
+       0.183 -    0.244: 14
+       0.244 -    0.304: 5
+  Chirality restraints: 244
+  Sorted by residual:
+  chirality pdb=" CA  PHE A 114 "
+            pdb=" N   PHE A 114 "
+            pdb=" C   PHE A 114 "
+            pdb=" CB  PHE A 114 "
+    both_signs  ideal   model   delta    sigma   weight residual
+      False      2.51    2.21    0.30 2.00e-01 2.50e+01 2.32e+00
+  chirality pdb=" CB  ILE A  27 "
+            pdb=" CA  ILE A  27 "
+            pdb=" CG1 ILE A  27 "
+            pdb=" CG2 ILE A  27 "
+    both_signs  ideal   model   delta    sigma   weight residual
+      False      2.64    2.38    0.26 2.00e-01 2.50e+01 1.71e+00
+  chirality pdb=" CB  THR A 155 "
+            pdb=" CA  THR A 155 "
+            pdb=" OG1 THR A 155 "
+            pdb=" CG2 THR A 155 "
+    both_signs  ideal   model   delta    sigma   weight residual
+      False      2.55    2.30    0.26 2.00e-01 2.50e+01 1.65e+00
+  ... (remaining 241 not shown)
+
+  Planarity restraints: 535
+  Sorted by residual:
+                                 delta    sigma   weight rms_deltas residual
+  plane pdb=" CA  TYR A 161 "    0.047 2.00e-02 2.50e+03   9.36e-02 8.76e+01
+        pdb=" C   TYR A 161 "   -0.162 2.00e-02 2.50e+03
+        pdb=" O   TYR A 161 "    0.062 2.00e-02 2.50e+03
+        pdb=" N  ALYS A 162 "    0.052 2.00e-02 2.50e+03
+                                 delta    sigma   weight rms_deltas residual
+  plane pdb=" CA  TYR A 161 "   -0.042 2.00e-02 2.50e+03   8.14e-02 6.62e+01
+        pdb=" C   TYR A 161 "    0.141 2.00e-02 2.50e+03
+        pdb=" O   TYR A 161 "   -0.052 2.00e-02 2.50e+03
+        pdb=" N  BLYS A 162 "   -0.047 2.00e-02 2.50e+03
+                                 delta    sigma   weight rms_deltas residual
+  plane pdb=" CG  GLN A 122 "   -0.008 2.00e-02 2.50e+03   4.29e-02 2.77e+01
+        pdb=" CD  GLN A 122 "   -0.062 2.00e-02 2.50e+03
+        pdb=" OE1 GLN A 122 "    0.053 2.00e-02 2.50e+03
+        pdb=" NE2 GLN A 122 "   -0.007 2.00e-02 2.50e+03
+        pdb="HE21 GLN A 122 "    0.057 2.00e-02 2.50e+03
+        pdb="HE22 GLN A 122 "   -0.033 2.00e-02 2.50e+03
+  ... (remaining 532 not shown)
+
+  Histogram of nonbonded interaction distances:
+        1.47 -     2.47: 2542
+        2.47 -     3.48: 19867
+        3.48 -     4.49: 35735
+        4.49 -     5.49: 60480
+        5.49 -     6.50: 82215
+  Nonbonded interactions: 200839
+  Sorted by model distance:
+  nonbonded pdb=" HZ1BLYS A  65 "
+            pdb="HE22 GLN A 141 "
+     model   vdw sym.op.
+     1.466 2.100 -x+y+1,-x,z+1/3
+  nonbonded pdb=" HE2BLYS A  65 "
+            pdb="HH12BARG A 137 "
+     model   vdw sym.op.
+     1.517 2.270 -x+y+1,-x,z+1/3
+  nonbonded pdb=" HZ3ALYS A  65 "
+            pdb="HE22 GLN A 141 "
+     model   vdw sym.op.
+     1.577 2.100 -x+y+1,-x,z+1/3
+  nonbonded pdb=" HE2 PHE A   4 "
+            pdb="HD22BASN A  68 "
+     model   vdw
+     1.708 2.100
+  nonbonded pdb=" HH ATYR A 139 "
+            pdb=" HE2ALYS A 147 "
+     model   vdw
+     1.749 2.270
+  ... (remaining 200834 not shown)
+
+  NOTE: a complete listing of the restraints can be obtained by requesting
+        output of .geo file.
+
+End of input processing
+
+  Symmetric amino acids flipped
+    Residue "A TYR  139": "CD1" <-> "CD2" "CE1" <-> "CE2" "HD1" <-> "HD2" "HE1" <-> "HE2"
+  Time to flip residues: 0.00s
+
+  Monomer Library directory:
+    "/home/liuyoujia/phenix-dev-4176/modules/chem_data/mon_lib"
+  Total number of atoms: 3749
+  Number of models: 1
+  Model: ""
+    Number of chains: 2
+    Chain: "A"
+      Number of atoms: 3358
+      Number of conformers: 2
+      Conformer: "A"
+        Number of residues, atoms: 164, 2636
+          Classifications: {'peptide': 164}
+          Modifications used: {'COO': 1, 'NH3': 1}
+          Link IDs: {'PTRANS': 3, 'TRANS': 160}
+      Conformer: "B"
+        Number of residues, atoms: 164, 2636
+          Classifications: {'peptide': 164}
+          Modifications used: {'COO': 1, 'NH3': 1}
+          Link IDs: {'PTRANS': 3, 'TRANS': 160}
+          bond proxies already assigned to first conformer: 1902
+    Chain: "A"
+      Number of atoms: 391
+      Number of conformers: 2
+      Conformer: "A"
+        Number of residues, atoms: 288, 327
+          Unusual residues: {'  K': 1, 'AZI': 2, 'MTN': 1, ' CL': 3, 'BME': 1}
+          Classifications: {'undetermined': 8, 'water': 280}
+          Link IDs: {None: 287}
+          Unresolved non-hydrogen bonds: 4
+          Unresolved non-hydrogen angles: 7
+      Conformer: "B"
+        Number of residues, atoms: 276, 313
+          Unusual residues: {'AZI': 1, 'MTN': 1, ' CL': 3, 'BME': 1}
+          Classifications: {'undetermined': 6, 'water': 270}
+          Link IDs: {None: 275}
+          Unresolved non-hydrogen bonds: 4
+          Unresolved non-hydrogen angles: 7
+          bond proxies already assigned to first conformer: 2
+  Residues with excluded nonbonded symmetry interactions: 92
+    residue:
+      pdb=" N  AMET A   1 " occ=0.61
+      ... (36 atoms not shown)
+      pdb=" HE3BMET A   1 " occ=0.39
+    residue:
+      pdb=" N  AGLU A   5 " occ=0.77
+      ... (28 atoms not shown)
+      pdb=" HG3BGLU A   5 " occ=0.23
+    residue:
+      pdb=" N  ALYS A  16 " occ=0.40
+      ... (42 atoms not shown)
+      pdb=" HZ3BLYS A  16 " occ=0.60
+    residue:
+      pdb=" N  ATYR A  18 " occ=0.56
+      ... (40 atoms not shown)
+      pdb=" HH BTYR A  18 " occ=0.44
+    residue:
+      pdb=" N  AGLU A  22 " occ=0.33
+      ... (28 atoms not shown)
+      pdb=" HG3BGLU A  22 " occ=0.67
+    residue:
+      pdb=" N  ALYS A  43 " occ=0.65
+      ... (42 atoms not shown)
+      pdb=" HZ3BLYS A  43 " occ=0.35
+    residue:
+      pdb=" N  AASN A  53 " occ=0.62
+      ... (26 atoms not shown)
+      pdb="HD22BASN A  53 " occ=0.38
+    residue:
+      pdb=" N  ATHR A  54 " occ=0.51
+      ... (26 atoms not shown)
+      pdb="HG23BTHR A  54 " occ=0.49
+    residue:
+      pdb=" N  AASN A  55 " occ=0.52
+      ... (26 atoms not shown)
+      pdb="HD22BASN A  55 " occ=0.48
+    residue:
+      pdb=" N  AGLY A  56 " occ=0.51
+      ... (12 atoms not shown)
+      pdb=" HA3BGLY A  56 " occ=0.49
+    residue:
+      pdb=" N  AVAL A  57 " occ=0.51
+      ... (30 atoms not shown)
+      pdb="HG23BVAL A  57 " occ=0.49
+    residue:
+      pdb=" N  ALYS A  65 " occ=0.66
+      ... (42 atoms not shown)
+      pdb=" HZ3BLYS A  65 " occ=0.34
+    ... (remaining 80 not shown)
+  Time building chain proxies: 0.66, per 1000 atoms: 0.18
+  Number of scatterers: 3749
+  At special positions: 0
+  Unit cell: (60.28, 60.28, 96.97, 90, 90, 120)
+  Space group: P 32 2 1 (No. 154)
+  Number of sites at special positions: 0
+  Number of scattering types: 7
+    Type Number    sf(0)
+     K       1     19.00
+     Cl      3     17.00
+     S      13     16.00
+     O     606      8.00
+     N     313      7.00
+     C    1047      6.00
+     H    1766      1.00
+    sf(0) = scattering factor at diffraction angle 0.
+
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 3749
+     H or D atoms   : 1766
+     chains         : 2
+     a.a. residues  : 164
+     nucleotides    : 0
+     water          : 299
+     other (ligands): 8
+   Ligands: K:1,AZI:2,MTN:1,CL:3,BME:1
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  atoms                 ideal   model   delta   sigma   slack  residual   deviation
+   A 137 BARG  CZ     
+   A 137 BARG  NH1         1.32     1.39    -0.06  1.40e-02  2.12e+01   4.6*sigma
+   A  68 BASN  CG     
+   A  68 BASN  ND2         1.33     1.20     0.13  2.10e-02  3.89e+01   6.2*sigma
+   A 207 AAZI  N1     
+   A 207 AAZI  N2          1.16     0.89     0.27  2.00e-02  1.87e+02  13.7*sigma
+
+  Min. delta:    0.000 (Z=  0.002)
+  Max. delta:    0.274 (Z= 13.682)
+  Mean delta:    0.017 (Z=  0.848)
+
+                        ----------Bond angles----------                        
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   A  76 AARG  NE     
+   A  76 AARG  CZ     
+   A  76 AARG  NH2       119.20   123.01    -3.81  9.00e-01  1.79e+01   4.2*sigma
+   A  68 AASN  CA     
+   A  68 AASN  CB     
+   A  68 AASN  CG        112.60   117.23    -4.63  1.00e+00  2.14e+01   4.6*sigma
+   A 145  ARG  CD     
+   A 145  ARG  NE     
+   A 145  ARG  CZ        124.40   117.38     7.02  1.40e+00  2.52e+01   5.0*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    9.406 (Z=  5.016)
+  Mean delta:    1.681 (Z=  0.881)
+
+                      ----------Dihedral angles----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.004
+  Max. delta:   58.332
+  Mean delta:   11.756
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.001
+  Max. delta:    0.304
+  Mean delta:    0.092
+
+                       ----------Planar groups----------                       
+
+  atoms                 rms_deltas   delta_max    residual   deviation
+   A 161  TYR  CA     
+   A 161  TYR  C      
+   A 161  TYR  O      
+   A 162 BLYS  N             0.081       0.141       66.21   7.0*sigma
+
+  Min. delta:    0.000
+  Max. delta:    0.126
+  Mean delta:    0.017
+
+============================= Hydrogen validation =============================
+
+
+                ----------H/D atoms in the input model----------               
+
+  Total number of hydrogen atoms : 1766
+  Total number of deuterium atoms: 0
+  Number of H atoms (protein)    : 1724
+  Number of D atoms (protein)    : 0
+  Number of H atoms (water)      : 0
+  Number of D atoms (water)      : 0
+  Number of H atoms (other)      : 42
+  Number of D atoms (other)      : 0
+
+                      ----------Water molecules----------                      
+
+  Number of water                            : 299
+  Number of water with 0 H (or D)            : 243
+  Number of water with 1 H (or D)            : 0
+  Number of water with 2 H (or D)            : 0
+  Number of water in alternative conformation: 56
+  Number of water without oxygen atom        : 0
+
+                    ----------MISSING H or D atoms----------                   
+
+  HIS A  31  conformer  : HE2 
+  CYS A 118  conformer A, B : HG 
+  MTN A 201  conformer A, B : H1, H4, H3 
+
+                       ----------Bond outliers----------                       
+
+   A 205 ABME  H11, Bond C1--H11, observed: 1.090, delta from target: -0.120
+   A 205 BBME  H12, Bond C1--H12, observed: 1.090, delta from target: -0.120
+   A 205 ABME  H12, Bond C1--H12, observed: 1.091, delta from target: -0.121
+   A 205 BBME  H11, Bond C1--H11, observed: 1.091, delta from target: -0.121
+   A 205 BBME  H22, Bond C2--H22, observed: 1.090, delta from target: -0.120
+   A 205 ABME  H21, Bond C2--H21, observed: 1.090, delta from target: -0.120
+   A 205 ABME  H22, Bond C2--H22, observed: 1.090, delta from target: -0.120
+   A 205 BBME  H21, Bond C2--H21, observed: 1.091, delta from target: -0.121
+   A 205 ABME  HO1, Bond O1--HO1, observed: 0.980, delta from target: -0.130
+   A 205 BBME  HO1, Bond O1--HO1, observed: 0.981, delta from target: -0.131
+   A 205 BBME  HS2, Bond S2--HS2, observed: 0.961, delta from target: 0.239
+   A 205 ABME  HS2, Bond S2--HS2, observed: 0.960, delta from target: 0.240
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library
+  Deviations from Ideal Values.
+    Bond      :  0.017   0.274   1720
+    Angle     :  1.681   9.406   2353
+    Chirality :  0.092   0.304    244
+    Planarity :  0.017   0.126    317
+    Dihedral  : 11.756  58.332    695
+    Min Nonbonded Distance : 1.789
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 2.61
+    Ramachandran Plot:
+      Outliers :  0.00 %
+      Allowed  :  1.23 %
+      Favored  : 98.77 %
+    Rotamer Outliers :  0.57 %
+    Cbeta Deviations :  0.00 %
+    Peptide Plane:
+      Cis-proline     : 0.00 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole:  0.00 (0.50), residues: 238
+    helix:  0.16 (0.36), residues: 160
+    sheet:  None (None), residues: 0
+    loop : -0.02 (0.72), residues: 78
+
+                     ----------Asn/Gln/His flips----------                     
+
+   A  68 BASN
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.00 %
+                favored =  98.77 %
+  Rotamer outliers      =   0.57 %
+  C-beta deviations     =     0
+  Clashscore            =   2.61
+  RMS(bonds)            =   0.0174
+  RMS(angles)           =   1.68
+  MolProbity score      =   1.05
+  Resolution            =   1.00
+  R-work                =   0.1150
+  R-free                =   0.1300
+  Refinement program    = PHENIX
+
+Results written to molprobity.out
+Wrote script for Coot: molprobity_coot.py

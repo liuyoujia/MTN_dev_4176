@@ -1,5 +1,5 @@
 # Effective refinement parameters
-# Date 2021-04-06 Time 05:13:40 EDT -0400 (1617700420.82 s)
+# Date 2021-04-08 Time 23:38:06 EDT -0400 (1617939486.45 s)
 
 # Command to extract only non-defaults:
 #   phenix.refine --diff_params "3stz.updated_refine_001.eff"

@@ -1,5 +1,5 @@
 # Default parameters for subsequent refinement
-# Date 2021-04-06 Time 05:36:33 EDT -0400 (1617701793.36 s)
+# Date 2021-04-08 Time 23:45:07 EDT -0400 (1617939907.40 s)
 
 # Command to extract only non-defaults:
 #   phenix.refine --diff_params "4ek1.updated_refine_002.def"

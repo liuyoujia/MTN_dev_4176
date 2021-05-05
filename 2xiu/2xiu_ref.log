@@ -1,0 +1,78 @@
+--------------------------------------------------------------------------------
+angles               : True
+bonds                : True
+chirals              : True
+delete_cache         : True
+dihedrals            : True
+exclude_hydrogens    : False
+exclude_non_protein  : False
+exclude_water        : True
+filename             : 2xiu.updated_refine_001.pdb.geo
+ignore_cache         : False
+nonbonds             : False
+only_hydrogens       : False
+only_water           : False
+parallelitys         : False
+planes               : False
+quiet                : False
+use_cache            : True
+--------------------------------------------------------------------------------
+processed bond : 0.1
+processed angle : 0.2
+processed dihedral : 0.2
+LOADED ['chirality', 'angle', 'dihedral', 'bond']
+Time to parse 0.24
+
+RMS results for model
+
+RMS(D/Z)
+             d-all          d-none         d-alt          z-all          z-none         z-alt          
+  bond       0.007( 2473)   0.007( 2029)   0.009(  444)   0.334( 2473)   0.327( 2029)   0.363(  444)
+  angle      1.058( 4525)   0.959( 3685)   1.415(  840)   0.481( 4525)   0.431( 3685)   0.658(  840)
+  dihedral  11.750(  973)  11.677(  775)  12.034(  198)   0.890(  973)   0.808(  775)   1.156(  198)
+
+Selecting bonds        Time to select bonds        : 0.02s
+Selecting angles       Time to select angles       : 0.06s
+Selecting dihedrals    Time to select dihedrals    : 0.02s
+
+RMS results for selection
+
+RMS(D/Z)
+             d-all          d-none         d-alt          z-all          z-none         z-alt          
+  bond       0.004(    6)   0.004(    6)   0.000(    0)   0.219(    6)   0.219(    6)   0.000(    0)
+  angle      1.124(   18)   1.124(   18)   0.000(    0)   0.375(   18)   0.375(   18)   0.000(    0)
+  dihedral   2.287(    4)   2.287(    4)   0.000(    0)   0.038(    4)   0.038(    4)   0.000(    0)
+
+----- bonds ----- bonds ----- bonds ----- bonds ----- bonds ----- bonds 
+   1 " C5  MTN B1055 " - " N1  MTN B1055 " [ 1.480, 1.473,  0.007, 2.00e-02, 2.50e+03, 1.38e-01] Z=  0.35
+   2 " C5  MTN A1055 " - " N1  MTN A1055 " [ 1.480, 1.476,  0.004, 2.00e-02, 2.50e+03, 4.95e-02] Z=  0.20
+   3 " C1  MTN A1055 " - " N1  MTN A1055 " [ 1.477, 1.481, -0.004, 2.00e-02, 2.50e+03, 3.98e-02] Z= -0.20
+   4 " N1  MTN A1055 " - " O1  MTN A1055 " [ 1.258, 1.254,  0.004, 2.00e-02, 2.50e+03, 3.65e-02] Z=  0.20
+   5 " C1  MTN B1055 " - " N1  MTN B1055 " [ 1.477, 1.474,  0.003, 2.00e-02, 2.50e+03, 2.85e-02] Z=  0.15
+   6 " N1  MTN B1055 " - " O1  MTN B1055 " [ 1.258, 1.261, -0.003, 2.00e-02, 2.50e+03, 2.09e-02] Z= -0.15
+---- angles ---- angles ---- angles ---- angles ---- angles ---- angles 
+   1 " C7  MTN A1055 " - " C5  MTN A1055 " - " N1  MTN A1055 " [ 109.16, 112.41, -3.25, 3.00, 0.111, 1.17e+00] Z= -1.08
+   2 " C8  MTN A1055 " - " C1  MTN A1055 " - " N1  MTN A1055 " [ 109.60, 107.64,  1.96, 3.00, 0.111, 4.25e-01] Z=  0.65
+   3 " C6  MTN B1055 " - " C5  MTN B1055 " - " N1  MTN B1055 " [ 108.85, 110.59, -1.74, 3.00, 0.111, 3.35e-01] Z= -0.58
+   4 " C9  MTN A1055 " - " C1  MTN A1055 " - " N1  MTN A1055 " [ 109.97, 111.43, -1.46, 3.00, 0.111, 2.35e-01] Z= -0.49
+   5 " C7  MTN B1055 " - " C5  MTN B1055 " - " N1  MTN B1055 " [ 109.16, 110.04, -0.88, 3.00, 0.111, 8.61e-02] Z= -0.29
+   6 " C8  MTN B1055 " - " C1  MTN B1055 " - " N1  MTN B1055 " [ 109.60, 108.76,  0.84, 3.00, 0.111, 7.86e-02] Z=  0.28
+   7 " C1  MTN B1055 " - " N1  MTN B1055 " - " O1  MTN B1055 " [ 122.58, 123.37, -0.79, 3.00, 0.111, 6.85e-02] Z= -0.26
+   8 " C1  MTN A1055 " - " N1  MTN A1055 " - " O1  MTN A1055 " [ 122.58, 123.30, -0.72, 3.00, 0.111, 5.83e-02] Z= -0.24
+   9 " C1  MTN B1055 " - " N1  MTN B1055 " - " C5  MTN B1055 " [ 114.61, 114.18,  0.43, 3.00, 0.111, 2.07e-02] Z=  0.14
+  10 " C2  MTN B1055 " - " C1  MTN B1055 " - " N1  MTN B1055 " [  99.99, 100.26, -0.27, 3.00, 0.111, 7.90e-03] Z= -0.09
+  11 " C3  MTN B1055 " - " C5  MTN B1055 " - " N1  MTN B1055 " [  99.93, 100.19, -0.26, 3.00, 0.111, 7.25e-03] Z= -0.09
+  12 " C2  MTN A1055 " - " C1  MTN A1055 " - " N1  MTN A1055 " [  99.99, 100.24, -0.25, 3.00, 0.111, 6.88e-03] Z= -0.08
+  13 " C3  MTN A1055 " - " C5  MTN A1055 " - " N1  MTN A1055 " [  99.93,  99.69,  0.24, 3.00, 0.111, 6.17e-03] Z=  0.08
+  14 " C6  MTN A1055 " - " C5  MTN A1055 " - " N1  MTN A1055 " [ 108.85, 109.06, -0.21, 3.00, 0.111, 5.13e-03] Z= -0.07
+  15 " C5  MTN A1055 " - " N1  MTN A1055 " - " O1  MTN A1055 " [ 122.20, 122.04,  0.16, 3.00, 0.111, 2.80e-03] Z=  0.05
+  16 " C9  MTN B1055 " - " C1  MTN B1055 " - " N1  MTN B1055 " [ 109.97, 109.82,  0.15, 3.00, 0.111, 2.48e-03] Z=  0.05
+  17 " C5  MTN B1055 " - " N1  MTN B1055 " - " O1  MTN B1055 " [ 122.20, 122.25, -0.05, 3.00, 0.111, 3.23e-04] Z= -0.02
+  18 " C1  MTN A1055 " - " N1  MTN A1055 " - " C5  MTN A1055 " [ 114.61, 114.60,  0.01, 3.00, 0.111, 3.34e-06] Z=  0.00
+---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals 
+   1 " C2  MTN B1055 " - " C1  MTN B1055 " - " N1  MTN B1055 " - " O1  MTN B1055 " [ -180.00, -176.65,   -3.35,  1,   60.00, 2.78e-04, 4.56e-03]
+   2 " C3  MTN B1055 " - " C5  MTN B1055 " - " N1  MTN B1055 " - " O1  MTN B1055 " [  180.00,  176.89,    3.11,  1,   60.00, 2.78e-04, 3.93e-03]
+   3 " C2  MTN A1055 " - " C1  MTN A1055 " - " N1  MTN A1055 " - " O1  MTN A1055 " [  180.00,  179.88,    0.12,  1,   60.00, 2.78e-04, 5.96e-06]
+   4 " C3  MTN A1055 " - " C5  MTN A1055 " - " N1  MTN A1055 " - " O1  MTN A1055 " [ -180.00, -179.90,   -0.10,  1,   60.00, 2.78e-04, 3.88e-06]
+---- chirals ---- chirals ---- chirals ---- chirals ---- chirals ---- chirals 
+  None

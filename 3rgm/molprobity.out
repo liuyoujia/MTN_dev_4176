@@ -1,0 +1,286 @@
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 8770
+     H or D atoms   : 4239
+     chains         : 2
+     a.a. residues  : 548
+     nucleotides    : 0
+     water          : 84
+     other (ligands): 16
+   Ligands: MG:9,MTN:1,C8E:6
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.093 (Z=  5.903)
+  Mean delta:    0.011 (Z=  0.645)
+
+                        ----------Bond angles----------                        
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   A 487  ARG  N      
+   A 487  ARG  CA     
+   A 487  ARG  C         109.24   116.71    -7.47  1.67e+00  2.00e+01   4.5*sigma
+   A 512  TYR  CA     
+   A 512  TYR  CB     
+   A 512  TYR  CG        113.90   105.65     8.25  1.80e+00  2.10e+01   4.6*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:   13.292 (Z=  4.582)
+  Mean delta:    1.273 (Z=  0.681)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   A 521  GLN  CA     
+   A 521  GLN  C      
+   A 522  TYR  N      
+   A 522  TYR  CA        180.00   159.20    20.80  5.00e+00  1.73e+01   4.2*sigma
+   A 487  ARG  CA     
+   A 487  ARG  C      
+   A 488  ASN  N      
+   A 488  ASN  CA        180.00   158.33    21.67  5.00e+00  1.88e+01   4.3*sigma
+   A 800  C8E  C11    
+   A 800  C8E  C13    
+   A 800  C8E  O12    
+   A 800  C8E  C14       112.46  -155.28   -92.26  2.00e+01  2.49e+01   4.6*sigma
+   A 803  C8E  C17    
+   A 803  C8E  C19    
+   A 803  C8E  O18    
+   A 803  C8E  C20      -109.02   158.10    92.88  2.00e+01  2.52e+01   4.6*sigma
+   A 581  THR  CA     
+   A 581  THR  C      
+   A 582  ALA  N      
+   A 582  ALA  CA        180.00  -155.96   -24.04  5.00e+00  2.31e+01   4.8*sigma
+   A 801  C8E  C17    
+   A 801  C8E  C19    
+   A 801  C8E  O18    
+   A 801  C8E  C20      -109.02   154.68    96.30  2.00e+01  2.66e+01   4.8*sigma
+   A 801  C8E  C11    
+   A 801  C8E  C10    
+   A 801  C8E  O9     
+   A 801  C8E  C8        167.31    69.20    98.12  2.00e+01  2.74e+01   4.9*sigma
+   A 801  C8E  C11    
+   A 801  C8E  C13    
+   A 801  C8E  O12    
+   A 801  C8E  C14       112.46  -140.90  -106.63  2.00e+01  3.09e+01   5.3*sigma
+   A 805  C8E  C10    
+   A 805  C8E  C11    
+   A 805  C8E  O12    
+   A 805  C8E  C13        99.41  -149.61  -110.99  2.00e+01  3.26e+01   5.5*sigma
+   A 804  C8E  C16    
+   A 804  C8E  C17    
+   A 804  C8E  O18    
+   A 804  C8E  C19        59.25   170.90  -111.65  2.00e+01  3.29e+01   5.6*sigma
+   A 803  C8E  C10    
+   A 803  C8E  C8     
+   A 803  C8E  O9     
+   A 803  C8E  C7        -73.00    39.01  -112.01  2.00e+01  3.30e+01   5.6*sigma
+   A 804  C8E  C14    
+   A 804  C8E  C16    
+   A 804  C8E  O15    
+   A 804  C8E  C17        59.98   -53.95   113.94  2.00e+01  3.37e+01   5.7*sigma
+   A 804  C8E  C11    
+   A 804  C8E  C10    
+   A 804  C8E  O9     
+   A 804  C8E  C8        167.31    53.12   114.20  2.00e+01  3.38e+01   5.7*sigma
+   A 804  C8E  C10    
+   A 804  C8E  C11    
+   A 804  C8E  O12    
+   A 804  C8E  C13        99.41  -144.48  -116.11  2.00e+01  3.46e+01   5.8*sigma
+   A 803  C8E  C13    
+   A 803  C8E  C14    
+   A 803  C8E  O15    
+   A 803  C8E  C16      -120.24   118.96   120.80  2.00e+01  3.63e+01   6.0*sigma
+   A 802  C8E  C14    
+   A 802  C8E  C16    
+   A 802  C8E  O15    
+   A 802  C8E  C17        59.98   -67.52   127.51  2.00e+01  3.86e+01   6.4*sigma
+   A 805  C8E  C14    
+   A 805  C8E  C16    
+   A 805  C8E  O15    
+   A 805  C8E  C17        59.98   -72.91   132.89  2.00e+01  4.03e+01   6.6*sigma
+   A 805  C8E  C13    
+   A 805  C8E  C14    
+   A 805  C8E  O15    
+   A 805  C8E  C16      -120.24    19.05  -139.29  2.00e+01  4.22e+01   7.0*sigma
+   A 800  C8E  C16    
+   A 800  C8E  C17    
+   A 800  C8E  O18    
+   A 800  C8E  C19        59.25  -160.52  -140.23  2.00e+01  4.24e+01   7.0*sigma
+   A 803  C8E  C16    
+   A 803  C8E  C17    
+   A 803  C8E  O18    
+   A 803  C8E  C19        59.25   -84.57   143.82  2.00e+01  4.34e+01   7.2*sigma
+   A 803  C8E  C11    
+   A 803  C8E  C13    
+   A 803  C8E  O12    
+   A 803  C8E  C14       112.46   -36.83   149.29  2.00e+01  4.46e+01   7.5*sigma
+   A 800  C8E  C10    
+   A 800  C8E  C8     
+   A 800  C8E  O9     
+   A 800  C8E  C7        -73.00    82.43  -155.43  2.00e+01  4.58e+01   7.8*sigma
+   A 800  C8E  C14    
+   A 800  C8E  C16    
+   A 800  C8E  O15    
+   A 800  C8E  C17        59.98  -101.70   161.68  2.00e+01  4.68e+01   8.1*sigma
+   A 800  C8E  C10    
+   A 800  C8E  C11    
+   A 800  C8E  O12    
+   A 800  C8E  C13        99.41   -97.70  -162.89  2.00e+01  4.69e+01   8.1*sigma
+   A 801  C8E  C10    
+   A 801  C8E  C11    
+   A 801  C8E  O12    
+   A 801  C8E  C13        99.41   -90.31  -170.29  2.00e+01  4.77e+01   8.5*sigma
+   A 804  C8E  C17    
+   A 804  C8E  C19    
+   A 804  C8E  O18    
+   A 804  C8E  C20      -109.02    74.22   176.76  2.00e+01  4.80e+01   8.8*sigma
+   A 534  TYR  CA     
+   A 534  TYR  C      
+   A 535  PRO  N      
+   A 535  PRO  CA        180.00   -88.00   -92.00  5.00e+00  3.39e+02  18.4*sigma
+
+  Min. delta:    0.000
+  Max. delta:  176.761
+  Mean delta:   23.744
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.249
+  Mean delta:    0.063
+
+                       ----------Planar groups----------                       
+
+  atoms                 rms_deltas   delta_max    residual   deviation
+   A 534  TYR  C      
+   A 535  PRO  N      
+   A 535  PRO  CA     
+   A 535  PRO  CD            0.156       0.269       38.81   5.4*sigma
+
+  Min. delta:    0.000
+  Max. delta:    0.156
+  Mean delta:    0.011
+
+============================= Hydrogen validation =============================
+
+
+                ----------H/D atoms in the input model----------               
+
+  Total number of hydrogen atoms : 4239
+  Total number of deuterium atoms: 0
+  Number of H atoms (protein)    : 4035
+  Number of D atoms (protein)    : 0
+  Number of H atoms (water)      : 0
+  Number of D atoms (water)      : 0
+  Number of H atoms (other)      : 204
+  Number of D atoms (other)      : 0
+
+                      ----------Water molecules----------                      
+
+  Number of water                            : 84
+  Number of water with 0 H (or D)            : 84
+  Number of water with 1 H (or D)            : 0
+  Number of water with 2 H (or D)            : 0
+  Number of water in alternative conformation: 0
+  Number of water without oxygen atom        : 0
+
+             ----------H (or D) atoms with occupancy < 1----------             
+
+  pdb=" H   CYS A 156 " with occupancy 0.9
+  pdb=" HA  CYS A 156 " with occupancy 0.9
+  pdb=" HB2 CYS A 156 " with occupancy 0.9
+  pdb=" HB3 CYS A 156 " with occupancy 0.9
+
+                    ----------MISSING H or D atoms----------                   
+
+  THR A   7  conformer  : H 
+  HIS A  75  conformer  : HD1 
+  TRP A 144  conformer  : HH2, HE1, HE3, HZ3, HZ2, HD1 
+  CYS A 156  conformer  : HG 
+  ASP A 162  conformer  : HA, HB2, HB3 
+  LYS A 163  conformer  : HE2, HG2, HZ1, HZ3, HZ2, HD2, HB2, HB3, HG3, HD3, HE3 
+  HIS A 174  conformer  : HE2 
+  HIS A 176  conformer  : HD1 
+  GLY A 196  conformer  : H 
+  HIS A 208  conformer  : HD1 
+  ARG A 226  conformer  : HE, HG2, HH22, HH21, HD2, HH12, HH11, HB2, HB3, HG3, HD3 
+  ASP A 241  conformer  : H 
+  LYS A 244  conformer  : HE2, HG2, HZ1, HZ3, HZ2, HD2, HB2, HB3, HG3, HD3, HE3 
+  GLU A 259  conformer  : HG2, HG3 
+  HIS A 271  conformer  : HD1 
+  LYS A 273  conformer  : HE2, HZ1, HZ3, HZ2, HD2, HD3, HE3 
+  TYR A 277  conformer  : HE2, HE1, HD1, HH, HD2, HB2, HB3 
+  ALA A 288  conformer  : H 
+  HIS A 308  conformer  : HD1 
+  HIS A 368  conformer  : HD1 
+  HIS A 449  conformer  : HD1 
+  LEU A 451  conformer  : HD22, HD23, HD21, HD13, HD12, HD11, HG, HB2, HB3 
+  HIS A 477  conformer  : HD1 
+  HIS A 558  conformer  : HD1 
+  MTN A 604  conformer  : H83, H81, H72, H73, H71, H91, H92, H93, H82, H2, H1, H4, H42, H41, H3, H61, H63, H62 
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library + CDL v1.2
+  Deviations from Ideal Values.
+    Bond      :  0.011   0.093   4534
+    Angle     :  1.273  13.292   6123
+    Chirality :  0.063   0.249    639
+    Planarity :  0.011   0.156    783
+    Dihedral  : 23.744 176.761   1648
+    Min Nonbonded Distance : 2.161
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 5.40
+    Ramachandran Plot:
+      Outliers :  0.19 %
+      Allowed  :  3.70 %
+      Favored  : 96.11 %
+    Rotamer Outliers :  1.79 %
+    Cbeta Deviations :  0.00 %
+    Peptide Plane:
+      Cis-proline     : 0.00 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 7.14 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole:  0.59 (0.35), residues: 540
+    helix: -2.35 (0.91), residues: 21
+    sheet:  1.38 (0.27), residues: 316
+    loop : -0.95 (0.43), residues: 203
+
+                     ----------Asn/Gln/His flips----------                     
+
+   A 150  GLN
+   A 510  GLN
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.19 %
+                favored =  96.11 %
+  Rotamer outliers      =   1.79 %
+  C-beta deviations     =     0
+  Clashscore            =   5.40
+  RMS(bonds)            =   0.0114
+  RMS(angles)           =   1.27
+  MolProbity score      =   1.75
+  Resolution            =   2.60
+  R-work                =   0.2117
+  R-free                =   0.2633
+  Refinement program    = PHENIX

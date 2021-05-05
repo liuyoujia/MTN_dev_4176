@@ -1,5 +1,5 @@
 # Default parameters for subsequent refinement
-# Date 2021-04-06 Time 05:09:50 EDT -0400 (1617700190.47 s)
+# Date 2021-04-08 Time 23:49:33 EDT -0400 (1617940173.43 s)
 
 # Command to extract only non-defaults:
 #   phenix.refine --diff_params "3mpn.updated_refine_002.def"

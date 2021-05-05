@@ -1,0 +1,65 @@
+--------------------------------------------------------------------------------
+angles               : True
+bonds                : True
+chirals              : True
+delete_cache         : True
+dihedrals            : True
+exclude_hydrogens    : False
+exclude_non_protein  : False
+exclude_water        : True
+filename             : 4wwl.updated_refine_001.pdb.geo
+ignore_cache         : False
+nonbonds             : False
+only_hydrogens       : False
+only_water           : False
+parallelitys         : False
+planes               : False
+quiet                : False
+use_cache            : True
+--------------------------------------------------------------------------------
+WARNING bond ESD is very small 0.0047 [' C   LYS A 208 ', ' O   LYS A 208 ', ['1.235', '1.222', '0.013', '4.70e-03', '4.53e+04', '7.76e+00']]
+processed bond : 0.3
+processed angle : 0.6
+processed dihedral : 0.7
+LOADED ['chirality', 'angle', 'dihedral', 'bond']
+Time to parse 0.67
+
+RMS results for model
+
+RMS(D/Z)
+             d-all          d-none         d-alt          z-all          z-none         z-alt          
+  bond       0.011( 8326)   0.011( 8246)   0.011(   80)   0.379( 8326)   0.379( 8246)   0.416(   80)
+  angle      0.920(15047)   0.918(14895)   1.070(  152)   0.429(15047)   0.428(14895)   0.515(  152)
+  dihedral  11.096( 3275)  11.127( 3235)   8.241(   40)   0.799( 3275)   0.798( 3235)   0.859(   40)
+
+Selecting bonds        Time to select bonds        : 0.07s
+Selecting angles       Time to select angles       : 0.22s
+Selecting dihedrals    Time to select dihedrals    : 0.07s
+
+RMS results for selection
+
+RMS(D/Z)
+             d-all          d-none         d-alt          z-all          z-none         z-alt          
+  bond       0.009(    3)   0.009(    3)   0.000(    0)   0.456(    3)   0.456(    3)   0.000(    0)
+  angle      2.817(    9)   2.817(    9)   0.000(    0)   0.939(    9)   0.939(    9)   0.000(    0)
+  dihedral   3.392(    2)   3.392(    2)   0.000(    0)   0.057(    2)   0.057(    2)   0.000(    0)
+
+----- bonds ----- bonds ----- bonds ----- bonds ----- bonds ----- bonds 
+   1 " C1  MTN A 601 " - " N1  MTN A 601 " [ 1.477, 1.491, -0.014, 2.00e-02, 2.50e+03, 5.14e-01] Z= -0.70
+   2 " C5  MTN A 601 " - " N1  MTN A 601 " [ 1.480, 1.473,  0.007, 2.00e-02, 2.50e+03, 1.23e-01] Z=  0.35
+   3 " N1  MTN A 601 " - " O1  MTN A 601 " [ 1.258, 1.260, -0.002, 2.00e-02, 2.50e+03, 1.16e-02] Z= -0.10
+---- angles ---- angles ---- angles ---- angles ---- angles ---- angles 
+   1 " C7  MTN A 601 " - " C5  MTN A 601 " - " N1  MTN A 601 " [ 109.16, 104.43,  4.73, 3.00, 0.111, 2.48e+00] Z=  1.58
+   2 " C6  MTN A 601 " - " C5  MTN A 601 " - " N1  MTN A 601 " [ 108.85, 113.57, -4.72, 3.00, 0.111, 2.48e+00] Z= -1.57
+   3 " C9  MTN A 601 " - " C1  MTN A 601 " - " N1  MTN A 601 " [ 109.97, 113.22, -3.25, 3.00, 0.111, 1.17e+00] Z= -1.08
+   4 " C1  MTN A 601 " - " N1  MTN A 601 " - " O1  MTN A 601 " [ 122.58, 125.82, -3.24, 3.00, 0.111, 1.17e+00] Z= -1.08
+   5 " C5  MTN A 601 " - " N1  MTN A 601 " - " O1  MTN A 601 " [ 122.20, 120.06,  2.14, 3.00, 0.111, 5.10e-01] Z=  0.71
+   6 " C8  MTN A 601 " - " C1  MTN A 601 " - " N1  MTN A 601 " [ 109.60, 108.76,  0.84, 3.00, 0.111, 7.93e-02] Z=  0.28
+   7 " C1  MTN A 601 " - " N1  MTN A 601 " - " C5  MTN A 601 " [ 114.61, 114.11,  0.50, 3.00, 0.111, 2.81e-02] Z=  0.17
+   8 " C2  MTN A 601 " - " C1  MTN A 601 " - " N1  MTN A 601 " [  99.99, 100.43, -0.44, 3.00, 0.111, 2.15e-02] Z= -0.15
+   9 " C3  MTN A 601 " - " C5  MTN A 601 " - " N1  MTN A 601 " [  99.93,  99.95, -0.02, 3.00, 0.111, 4.84e-05] Z= -0.01
+---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals 
+   1 " C2  MTN A 601 " - " C1  MTN A 601 " - " N1  MTN A 601 " - " O1  MTN A 601 " [  180.00, -176.49,   -3.51,  1,   60.00, 2.78e-04, 5.01e-03]
+   2 " C3  MTN A 601 " - " C5  MTN A 601 " - " N1  MTN A 601 " - " O1  MTN A 601 " [  180.00,  176.73,    3.27,  1,   60.00, 2.78e-04, 4.34e-03]
+---- chirals ---- chirals ---- chirals ---- chirals ---- chirals ---- chirals 
+  None

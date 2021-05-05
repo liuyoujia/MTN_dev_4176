@@ -1,5 +1,5 @@
 # Effective refinement parameters
-# Date 2021-04-06 Time 05:56:03 EDT -0400 (1617702963.19 s)
+# Date 2021-04-08 Time 23:16:02 EDT -0400 (1617938162.12 s)
 
 # Command to extract only non-defaults:
 #   phenix.refine --diff_params "5g27_modified.updated_refine_001.eff"

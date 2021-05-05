@@ -1,5 +1,5 @@
 # Effective refinement parameters
-# Date 2021-04-06 Time 05:26:44 EDT -0400 (1617701204.75 s)
+# Date 2021-04-08 Time 23:35:08 EDT -0400 (1617939308.04 s)
 
 # Command to extract only non-defaults:
 #   phenix.refine --diff_params "4ek1.updated_refine_001.eff"

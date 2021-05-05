@@ -1,7 +1,7 @@
 ready_set {
   input {
     pdb_file_name = "5g27_modified.pdb"
-    cif_file_name = None
+    cif_file_name = "data_MTN_one_plane-1.cif"
     cif_dir_name = None
     ligand_cache_directory = None
     output_dir = None

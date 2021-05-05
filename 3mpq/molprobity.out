@@ -1,0 +1,156 @@
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 8107
+     H or D atoms   : 4091
+     chains         : 2
+     a.a. residues  : 491
+     nucleotides    : 0
+     water          : 42
+     other (ligands): 7
+   Ligands: NA:2,MTN:1,CL:1,BOG:3
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.121 (Z=  8.775)
+  Mean delta:    0.012 (Z=  0.669)
+
+                        ----------Bond angles----------                        
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   A 270  ARG  C      
+   A 271  LYS  N      
+   A 271  LYS  CA        120.38   126.55    -6.17  1.46e+00  1.79e+01   4.2*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:   11.257 (Z=  4.225)
+  Mean delta:    1.232 (Z=  0.661)
+
+                      ----------Dihedral angles----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.001
+  Max. delta:   81.032
+  Mean delta:   14.784
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.242
+  Mean delta:    0.059
+
+                       ----------Planar groups----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.061
+  Mean delta:    0.010
+
+============================= Hydrogen validation =============================
+
+
+                ----------H/D atoms in the input model----------               
+
+  Total number of hydrogen atoms : 4091
+  Total number of deuterium atoms: 0
+  Number of H atoms (protein)    : 3992
+  Number of D atoms (protein)    : 0
+  Number of H atoms (water)      : 0
+  Number of D atoms (water)      : 0
+  Number of H atoms (other)      : 99
+  Number of D atoms (other)      : 0
+
+                      ----------Water molecules----------                      
+
+  Number of water                            : 42
+  Number of water with 0 H (or D)            : 42
+  Number of water with 1 H (or D)            : 0
+  Number of water with 2 H (or D)            : 0
+  Number of water in alternative conformation: 0
+  Number of water without oxygen atom        : 0
+
+                    ----------MISSING H or D atoms----------                   
+
+  LYS A   4  conformer  : H 
+  HIS A   7  conformer  : HE2 
+  HIS A  74  conformer  : HE2 
+  ASP A 136  conformer  : H 
+  CYS A 204  conformer  : HG 
+  THR A 254  conformer  : HG1 
+  THR A 354  conformer  : HG1 
+  SER A 355  conformer  : HG 
+  HIS A 377  conformer  : HD1 
+  HIS A 391  conformer  : HE2 
+  THR A 479  conformer  : H 
+  HIS A 480  conformer  : HD1 
+  HIS A 510  conformer  : HE2 
+  BOG A 701  conformer  : H7', H7'', H1'', H1', H2', H2'', H6', H6'', H8'', H8*3, H8', H5'', H5', H3', H3'', H4'', H4' 
+  LEU A 601  conformer  : H 
+  MTN A 801  conformer  : H1, H4, H3 
+  BOG A 703  conformer  : H7', H7'', H1'', H1', H2', H2'', H6', H6'', H8'', H8*3, H8', H5'', H5', H3', H3'', H4'', H4' 
+  BOG A 704  conformer  : H7', H7'', H1'', H1', H2', H2'', H6', H6'', H8'', H8*3, H8', H5'', H5', H3', H3'', H4'', H4' 
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library + CDL v1.2
+  Deviations from Ideal Values.
+    Bond      :  0.012   0.121   4090
+    Angle     :  1.232  11.257   5562
+    Chirality :  0.059   0.242    634
+    Planarity :  0.010   0.061    667
+    Dihedral  : 14.784  81.032   1391
+    Min Nonbonded Distance : 2.206
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 4.59
+    Ramachandran Plot:
+      Outliers :  0.00 %
+      Allowed  :  2.69 %
+      Favored  : 97.31 %
+    Rotamer Outliers :  0.76 %
+    Cbeta Deviations :  0.00 %
+    Peptide Plane:
+      Cis-proline     : 0.00 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole: -1.75 (0.33), residues: 484
+    helix: -1.11 (0.23), residues: 372
+    sheet:  None (None), residues: 0
+    loop : -0.57 (0.59), residues: 112
+
+                     ----------Asn/Gln/His flips----------                     
+
+  No backwards Asn/Gln/His sidechains found.
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.00 %
+                favored =  97.31 %
+  Rotamer outliers      =   0.76 %
+  C-beta deviations     =     0
+  Clashscore            =   4.59
+  RMS(bonds)            =   0.0124
+  RMS(angles)           =   1.23
+  MolProbity score      =   1.36
+  Resolution            =   2.25
+  R-work                =   0.1742
+  R-free                =   0.2204
+  Refinement program    = PHENIX

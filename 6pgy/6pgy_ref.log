@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------------
+angles               : True
+bonds                : True
+chirals              : True
+delete_cache         : True
+dihedrals            : True
+exclude_hydrogens    : False
+exclude_non_protein  : False
+exclude_water        : True
+filename             : 6pgy.updated_refine_001.pdb.geo
+ignore_cache         : False
+nonbonds             : False
+only_hydrogens       : False
+only_water           : False
+parallelitys         : False
+planes               : False
+quiet                : False
+use_cache            : True
+--------------------------------------------------------------------------------
+processed bond : 0.1
+processed angle : 0.2
+processed dihedral : 0.2
+LOADED ['chirality', 'angle', 'dihedral', 'bond']
+Time to parse 0.17
+
+RMS results for model
+
+RMS(D/Z)
+             d-all          d-none         d-alt          z-all          z-none         z-alt          
+  bond       0.008( 2757)   0.008( 2571)   0.006(  186)   0.351( 2757)   0.357( 2571)   0.242(  186)
+  angle      0.873( 4977)   0.879( 4633)   0.795(  344)   0.400( 4977)   0.403( 4633)   0.360(  344)
+  dihedral   9.338( 1091)   9.394( 1011)   8.591(   80)   0.685( 1091)   0.680( 1011)   0.750(   80)
+
+Selecting bonds        Time to select bonds        : 0.02s
+Selecting angles       Time to select angles       : 0.07s
+Selecting dihedrals    Time to select dihedrals    : 0.02s
+
+RMS results for selection
+
+RMS(D/Z)
+             d-all          d-none         d-alt          z-all          z-none         z-alt          
+  bond       0.005(    3)   0.005(    3)   0.000(    0)   0.240(    3)   0.240(    3)   0.000(    0)
+  angle      2.638(    9)   2.638(    9)   0.000(    0)   0.879(    9)   0.879(    9)   0.000(    0)
+  dihedral  14.146(    2)  14.146(    2)   0.000(    0)   0.236(    2)   0.236(    2)   0.000(    0)
+
+----- bonds ----- bonds ----- bonds ----- bonds ----- bonds ----- bonds 
+   1 " C5  MTN A 203 " - " N1  MTN A 203 " [ 1.480, 1.487, -0.007, 2.00e-02, 2.50e+03, 1.35e-01] Z= -0.35
+   2 " C1  MTN A 203 " - " N1  MTN A 203 " [ 1.477, 1.473,  0.004, 2.00e-02, 2.50e+03, 4.76e-02] Z=  0.20
+   3 " N1  MTN A 203 " - " O1  MTN A 203 " [ 1.258, 1.256,  0.002, 2.00e-02, 2.50e+03, 5.77e-03] Z=  0.10
+---- angles ---- angles ---- angles ---- angles ---- angles ---- angles 
+   1 " C6  MTN A 203 " - " C5  MTN A 203 " - " N1  MTN A 203 " [ 108.85, 115.14, -6.29, 3.00, 0.111, 4.39e+00] Z= -2.10
+   2 " C9  MTN A 203 " - " C1  MTN A 203 " - " N1  MTN A 203 " [ 109.97, 107.63,  2.34, 3.00, 0.111, 6.07e-01] Z=  0.78
+   3 " C7  MTN A 203 " - " C5  MTN A 203 " - " N1  MTN A 203 " [ 109.16, 106.88,  2.28, 3.00, 0.111, 5.79e-01] Z=  0.76
+   4 " C1  MTN A 203 " - " N1  MTN A 203 " - " O1  MTN A 203 " [ 122.58, 120.38,  2.20, 3.00, 0.111, 5.38e-01] Z=  0.73
+   5 " C8  MTN A 203 " - " C1  MTN A 203 " - " N1  MTN A 203 " [ 109.60, 107.73,  1.87, 3.00, 0.111, 3.86e-01] Z=  0.62
+   6 " C5  MTN A 203 " - " N1  MTN A 203 " - " O1  MTN A 203 " [ 122.20, 123.94, -1.74, 3.00, 0.111, 3.37e-01] Z= -0.58
+   7 " C3  MTN A 203 " - " C5  MTN A 203 " - " N1  MTN A 203 " [  99.93,  99.17,  0.76, 3.00, 0.111, 6.46e-02] Z=  0.25
+   8 " C2  MTN A 203 " - " C1  MTN A 203 " - " N1  MTN A 203 " [  99.99, 100.65, -0.66, 3.00, 0.111, 4.80e-02] Z= -0.22
+   9 " C1  MTN A 203 " - " N1  MTN A 203 " - " C5  MTN A 203 " [ 114.61, 114.65, -0.04, 3.00, 0.111, 2.07e-04] Z= -0.01
+---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals 
+   1 " C3  MTN A 203 " - " C5  MTN A 203 " - " N1  MTN A 203 " - " O1  MTN A 203 " [  180.00,  165.44,   14.56,  1,   60.00, 2.78e-04,    0.09]
+   2 " C2  MTN A 203 " - " C1  MTN A 203 " - " N1  MTN A 203 " - " O1  MTN A 203 " [ -180.00, -166.28,  -13.72,  1,   60.00, 2.78e-04,    0.08]
+---- chirals ---- chirals ---- chirals ---- chirals ---- chirals ---- chirals 
+  None

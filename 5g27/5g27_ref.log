@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------------
+angles               : True
+bonds                : True
+chirals              : True
+delete_cache         : True
+dihedrals            : True
+exclude_hydrogens    : False
+exclude_non_protein  : False
+exclude_water        : True
+filename             : 5g27_modified.updated_refine_001.pdb.geo
+ignore_cache         : False
+nonbonds             : False
+only_hydrogens       : False
+only_water           : False
+parallelitys         : False
+planes               : False
+quiet                : False
+use_cache            : True
+--------------------------------------------------------------------------------
+processed bond : 0.2
+processed angle : 0.2
+processed dihedral : 0.3
+LOADED ['chirality', 'angle', 'dihedral', 'bond']
+Time to parse 0.26
+
+RMS results for model
+
+RMS(D/Z)
+             d-all          d-none         d-alt          z-all          z-none         z-alt          
+  bond       0.007( 2700)   0.007( 2459)   0.010(  241)   0.319( 2700)   0.308( 2459)   0.412(  241)
+  angle      0.875( 4871)   0.826( 4429)   1.271(  442)   0.409( 4871)   0.394( 4429)   0.540(  442)
+  dihedral  10.031( 1065)  10.113(  978)   9.067(   87)   0.742( 1065)   0.730(  978)   0.869(   87)
+
+Selecting bonds        Time to select bonds        : 0.02s
+Selecting angles       Time to select angles       : 0.07s
+Selecting dihedrals    Time to select dihedrals    : 0.02s
+
+RMS results for selection
+
+RMS(D/Z)
+             d-all          d-none         d-alt          z-all          z-none         z-alt          
+  bond       0.004(    3)   0.000(    0)   0.004(    3)   0.212(    3)   0.000(    0)   0.212(    3)
+  angle      3.081(    9)   0.000(    0)   3.081(    9)   1.027(    9)   0.000(    0)   1.027(    9)
+  dihedral   9.238(    2)   0.000(    0)   9.238(    2)   0.154(    2)   0.000(    0)   0.154(    2)
+
+----- bonds ----- bonds ----- bonds ----- bonds ----- bonds ----- bonds 
+   1 " N1 AMTN A 501 " - " O1 AMTN A 501 " [ 1.258, 1.263, -0.005, 2.00e-02, 2.50e+03, 7.24e-02] Z= -0.25
+   2 " C1 AMTN A 501 " - " N1 AMTN A 501 " [ 1.477, 1.482, -0.005, 2.00e-02, 2.50e+03, 6.08e-02] Z= -0.25
+   3 " C5 AMTN A 501 " - " N1 AMTN A 501 " [ 1.480, 1.478,  0.002, 2.00e-02, 2.50e+03, 1.38e-02] Z=  0.10
+---- angles ---- angles ---- angles ---- angles ---- angles ---- angles 
+   1 " C6 AMTN A 501 " - " C5 AMTN A 501 " - " N1 AMTN A 501 " [ 108.85, 102.50,  6.35, 3.00, 0.111, 4.48e+00] Z=  2.12
+   2 " C7 AMTN A 501 " - " C5 AMTN A 501 " - " N1 AMTN A 501 " [ 109.16, 112.99, -3.83, 3.00, 0.111, 1.63e+00] Z= -1.28
+   3 " C9 AMTN A 501 " - " C1 AMTN A 501 " - " N1 AMTN A 501 " [ 109.97, 106.42,  3.55, 3.00, 0.111, 1.40e+00] Z=  1.18
+   4 " C8 AMTN A 501 " - " C1 AMTN A 501 " - " N1 AMTN A 501 " [ 109.60, 112.59, -2.99, 3.00, 0.111, 9.95e-01] Z= -1.00
+   5 " C3 AMTN A 501 " - " C5 AMTN A 501 " - " N1 AMTN A 501 " [  99.93, 101.72, -1.79, 3.00, 0.111, 3.56e-01] Z= -0.60
+   6 " C1 AMTN A 501 " - " N1 AMTN A 501 " - " O1 AMTN A 501 " [ 122.58, 124.15, -1.57, 3.00, 0.111, 2.73e-01] Z= -0.52
+   7 " C1 AMTN A 501 " - " N1 AMTN A 501 " - " C5 AMTN A 501 " [ 114.61, 113.24,  1.37, 3.00, 0.111, 2.07e-01] Z=  0.46
+   8 " C2 AMTN A 501 " - " C1 AMTN A 501 " - " N1 AMTN A 501 " [  99.99, 100.84, -0.85, 3.00, 0.111, 8.12e-02] Z= -0.28
+   9 " C5 AMTN A 501 " - " N1 AMTN A 501 " - " O1 AMTN A 501 " [ 122.20, 121.42,  0.78, 3.00, 0.111, 6.73e-02] Z=  0.26
+---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals 
+   1 " C2 AMTN A 501 " - " C1 AMTN A 501 " - " N1 AMTN A 501 " - " O1 AMTN A 501 " [  180.00,  170.53,    9.47,  1,   60.00, 2.78e-04,    0.04]
+   2 " C3 AMTN A 501 " - " C5 AMTN A 501 " - " N1 AMTN A 501 " - " O1 AMTN A 501 " [ -180.00, -171.00,   -9.00,  1,   60.00, 2.78e-04,    0.03]
+---- chirals ---- chirals ---- chirals ---- chirals ---- chirals ---- chirals 
+  None

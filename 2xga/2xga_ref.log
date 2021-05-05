@@ -1,0 +1,79 @@
+--------------------------------------------------------------------------------
+angles               : True
+bonds                : True
+chirals              : True
+delete_cache         : True
+dihedrals            : True
+exclude_hydrogens    : False
+exclude_non_protein  : False
+exclude_water        : True
+filename             : 2xga.updated_refine_001.pdb.geo
+ignore_cache         : False
+nonbonds             : False
+only_hydrogens       : False
+only_water           : False
+parallelitys         : False
+planes               : False
+quiet                : False
+use_cache            : True
+--------------------------------------------------------------------------------
+processed bond : 0.1
+WARNING angle ESD is very small 0.46 [' O   PRO B  20 ', ' C   PRO B  20 ', ' N   PRO B  21 ', ['121.31', '120.53', '0.78', '4.60e-01', '4.73e+00', '2.90e+00']]
+processed angle : 0.3
+processed dihedral : 0.3
+LOADED ['chirality', 'angle', 'dihedral', 'bond']
+Time to parse 0.29
+
+RMS results for model
+
+RMS(D/Z)
+             d-all          d-none         d-alt          z-all          z-none         z-alt          
+  bond       0.010( 4192)   0.010( 4130)   0.005(   62)   0.438( 4192)   0.441( 4130)   0.261(   62)
+  angle      1.096( 7589)   1.101( 7473)   0.723(  116)   0.502( 7589)   0.504( 7473)   0.411(  116)
+  dihedral  12.204( 1680)  12.058( 1650)  18.530(   30)   0.914( 1680)   0.912( 1650)   1.021(   30)
+
+Selecting bonds        Time to select bonds        : 0.03s
+Selecting angles       Time to select angles       : 0.11s
+Selecting dihedrals    Time to select dihedrals    : 0.03s
+
+RMS results for selection
+
+RMS(D/Z)
+             d-all          d-none         d-alt          z-all          z-none         z-alt          
+  bond       0.010(    6)   0.010(    6)   0.000(    0)   0.479(    6)   0.479(    6)   0.000(    0)
+  angle      1.844(   18)   1.844(   18)   0.000(    0)   0.615(   18)   0.615(   18)   0.000(    0)
+  dihedral   6.586(    4)   6.586(    4)   0.000(    0)   0.110(    4)   0.110(    4)   0.000(    0)
+
+----- bonds ----- bonds ----- bonds ----- bonds ----- bonds ----- bonds 
+   1 " N1  MTN B1019 " - " O1  MTN B1019 " [ 1.258, 1.278, -0.020, 2.00e-02, 2.50e+03, 9.70e-01] Z= -1.00
+   2 " C5  MTN A1019 " - " N1  MTN A1019 " [ 1.480, 1.471,  0.009, 2.00e-02, 2.50e+03, 2.10e-01] Z=  0.45
+   3 " C5  MTN B1019 " - " N1  MTN B1019 " [ 1.480, 1.472,  0.008, 2.00e-02, 2.50e+03, 1.46e-01] Z=  0.40
+   4 " N1  MTN A1019 " - " O1  MTN A1019 " [ 1.258, 1.256,  0.002, 2.00e-02, 2.50e+03, 7.87e-03] Z=  0.10
+   5 " C1  MTN B1019 " - " N1  MTN B1019 " [ 1.477, 1.476,  0.001, 2.00e-02, 2.50e+03, 9.60e-04] Z=  0.05
+   6 " C1  MTN A1019 " - " N1  MTN A1019 " [ 1.477, 1.476,  0.001, 2.00e-02, 2.50e+03, 8.31e-04] Z=  0.05
+---- angles ---- angles ---- angles ---- angles ---- angles ---- angles 
+   1 " C6  MTN B1019 " - " C5  MTN B1019 " - " N1  MTN B1019 " [ 108.85, 104.14,  4.71, 3.00, 0.111, 2.47e+00] Z=  1.57
+   2 " C9  MTN A1019 " - " C1  MTN A1019 " - " N1  MTN A1019 " [ 109.97, 106.59,  3.38, 3.00, 0.111, 1.27e+00] Z=  1.13
+   3 " C6  MTN A1019 " - " C5  MTN A1019 " - " N1  MTN A1019 " [ 108.85, 106.05,  2.80, 3.00, 0.111, 8.69e-01] Z=  0.93
+   4 " C8  MTN B1019 " - " C1  MTN B1019 " - " N1  MTN B1019 " [ 109.60, 112.22, -2.62, 3.00, 0.111, 7.62e-01] Z= -0.87
+   5 " C1  MTN B1019 " - " N1  MTN B1019 " - " O1  MTN B1019 " [ 122.58, 124.50, -1.92, 3.00, 0.111, 4.08e-01] Z= -0.64
+   6 " C7  MTN A1019 " - " C5  MTN A1019 " - " N1  MTN A1019 " [ 109.16, 110.77, -1.61, 3.00, 0.111, 2.89e-01] Z= -0.54
+   7 " C2  MTN B1019 " - " C1  MTN B1019 " - " N1  MTN B1019 " [  99.99, 101.16, -1.17, 3.00, 0.111, 1.52e-01] Z= -0.39
+   8 " C1  MTN B1019 " - " N1  MTN B1019 " - " C5  MTN B1019 " [ 114.61, 113.55,  1.06, 3.00, 0.111, 1.24e-01] Z=  0.35
+   9 " C7  MTN B1019 " - " C5  MTN B1019 " - " N1  MTN B1019 " [ 109.16, 110.16, -1.00, 3.00, 0.111, 1.12e-01] Z= -0.33
+  10 " C8  MTN A1019 " - " C1  MTN A1019 " - " N1  MTN A1019 " [ 109.60, 110.57, -0.97, 3.00, 0.111, 1.04e-01] Z= -0.32
+  11 " C2  MTN A1019 " - " C1  MTN A1019 " - " N1  MTN A1019 " [  99.99, 100.79, -0.80, 3.00, 0.111, 7.16e-02] Z= -0.27
+  12 " C1  MTN A1019 " - " N1  MTN A1019 " - " O1  MTN A1019 " [ 122.58, 123.38, -0.80, 3.00, 0.111, 7.09e-02] Z= -0.27
+  13 " C9  MTN B1019 " - " C1  MTN B1019 " - " N1  MTN B1019 " [ 109.97, 109.35,  0.62, 3.00, 0.111, 4.31e-02] Z=  0.21
+  14 " C3  MTN B1019 " - " C5  MTN B1019 " - " N1  MTN B1019 " [  99.93, 100.40, -0.47, 3.00, 0.111, 2.48e-02] Z= -0.16
+  15 " C5  MTN A1019 " - " N1  MTN A1019 " - " O1  MTN A1019 " [ 122.20, 121.83,  0.37, 3.00, 0.111, 1.52e-02] Z=  0.12
+  16 " C5  MTN B1019 " - " N1  MTN B1019 " - " O1  MTN B1019 " [ 122.20, 121.91,  0.29, 3.00, 0.111, 9.06e-03] Z=  0.10
+  17 " C1  MTN A1019 " - " N1  MTN A1019 " - " C5  MTN A1019 " [ 114.61, 114.46,  0.15, 3.00, 0.111, 2.49e-03] Z=  0.05
+  18 " C3  MTN A1019 " - " C5  MTN A1019 " - " N1  MTN A1019 " [  99.93, 100.07, -0.14, 3.00, 0.111, 2.26e-03] Z= -0.05
+---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals 
+   1 " C3  MTN A1019 " - " C5  MTN A1019 " - " N1  MTN A1019 " - " O1  MTN A1019 " [  180.00,  171.79,    8.21,  1,   60.00, 2.78e-04,    0.03]
+   2 " C2  MTN A1019 " - " C1  MTN A1019 " - " N1  MTN A1019 " - " O1  MTN A1019 " [  180.00, -171.87,   -8.13,  1,   60.00, 2.78e-04,    0.03]
+   3 " C3  MTN B1019 " - " C5  MTN B1019 " - " N1  MTN B1019 " - " O1  MTN B1019 " [  180.00,  175.39,    4.61,  1,   60.00, 2.78e-04, 8.61e-03]
+   4 " C2  MTN B1019 " - " C1  MTN B1019 " - " N1  MTN B1019 " - " O1  MTN B1019 " [ -180.00, -175.67,   -4.33,  1,   60.00, 2.78e-04, 7.61e-03]
+---- chirals ---- chirals ---- chirals ---- chirals ---- chirals ---- chirals 
+  None
